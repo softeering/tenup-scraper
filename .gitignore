@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local debug captures — contain session cookies / account info, do not publish
+curl.json
+response.json
+debug.log

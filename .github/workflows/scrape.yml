@@ -1,0 +1,47 @@
+name: Scrape TenUp
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: scrape-tenup
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit & push changes
+        run: |
+          if [ -z "$(git status --porcelain data/tournaments.json docs/index.md)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tournaments.json docs/index.md
+          git commit -m "chore(data): refresh tournaments @ $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin HEAD:main
