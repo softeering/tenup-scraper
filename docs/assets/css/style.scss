@@ -2,8 +2,17 @@
 ---
 @import "{{ site.theme }}";
 
+header,
+footer,
+.page-header,
+.site-footer {
+  display: none;
+}
+
 .main-content,
 .page-content,
 .wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
 }
