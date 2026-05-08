@@ -253,7 +253,7 @@ def _debug_dump(label: str, obj) -> None:
 
 
 def parse_tournaments(
-    payload: list[dict], age_id: int | None = 65
+    payload: list[dict], age_id: str | None = YOUTH_BUNDLE_AGE_IDS
 ) -> list[dict]:
     """Extract a flat list of tournament summaries from the AJAX payload.
 
@@ -264,10 +264,17 @@ def parse_tournaments(
     Args:
         payload: The Drupal AJAX command array returned by
             :func:`fetch_tournaments`.
-        age_id: Keep only tournaments that expose an ``epreuve`` with
-            this ``categorieAge.id``. Default ``65`` is 7/10 ans. Pass
-            ``None`` to disable filtering.
+        age_id: Pipe-separated TenUp ``categorieAge.id`` values to keep.
+            Tournaments that expose an ``epreuve`` matching any of these
+            ids are kept. Defaults to the full youth bundle
+            (``YOUTH_BUNDLE_AGE_IDS``). Pass ``None`` to disable filtering.
     """
+    allowed_ids: set[int] | None
+    if age_id is None:
+        allowed_ids = None
+    else:
+        allowed_ids = {int(x) for x in age_id.split("|") if x.strip()}
+
     items: list[dict] = []
     for entry in payload:
         if entry.get("command") == "recherche_tournois_update":
@@ -284,7 +291,7 @@ def parse_tournaments(
 
     out = []
     for item in items:
-        if age_id is not None and not _has_age(item, age_id):
+        if allowed_ids is not None and not _has_any_age(item, allowed_ids):
             continue
         installation = item.get("installation") or {}
         out.append(
@@ -307,10 +314,10 @@ def parse_tournaments(
     return out
 
 
-def _has_age(item: dict, age_id: int) -> bool:
+def _has_any_age(item: dict, age_ids: set[int]) -> bool:
     for epreuve in item.get("epreuves") or []:
         cat = (epreuve.get("categorieAge") or {}).get("id")
-        if cat == age_id:
+        if cat in age_ids:
             return True
     return False
 
@@ -421,7 +428,7 @@ def render_markdown(store: dict, *, now: datetime | None = None) -> str:
             bits.append(f"ville **{params['city']}**")
         if params.get("distance_km") is not None:
             bits.append(f"rayon **{params['distance_km']} km**")
-        if params.get("age_id"):
+        if params.get("age_id") and params["age_id"] != YOUTH_BUNDLE_AGE_IDS:
             bits.append(f"catégorie d'âge **{params['age_id']}**")
         if bits:
             lines.append("_Recherche : " + ", ".join(bits) + "._")
@@ -531,11 +538,12 @@ def main() -> None:
     )
     parser.add_argument(
         "--age-id",
-        type=int,
-        default=65,
+        type=str,
+        default=YOUTH_BUNDLE_AGE_IDS,
         help=(
-            "TenUp categorieAge.id to keep (client-side filter). "
-            "Default 65 = 7/10 ans. Pass 0 to disable."
+            "Pipe-separated TenUp categorieAge.id values to keep "
+            "(client-side filter). Default is the full youth bundle. "
+            "Pass an empty string to disable filtering."
         ),
     )
     parser.add_argument(
