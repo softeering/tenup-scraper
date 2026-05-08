@@ -27,6 +27,8 @@ REPO_ROOT = Path(__file__).resolve().parent
 STORE_PATH = REPO_ROOT / "data" / "tournaments.json"
 PAGE_PATH = REPO_ROOT / "docs" / "index.md"
 
+NEW_WINDOW = timedelta(hours=48)
+
 COLLECT_FORM_JS = """
 () => {
     const form = document.querySelector('#recherche-tournois-form');
@@ -350,23 +352,30 @@ def refresh_store(
     """
     now = now or datetime.now(timezone.utc)
     today = today or date.today()
+    now_iso = now.replace(microsecond=0).isoformat()
 
-    by_id: dict[str, dict] = {}
+    existing: dict[str, dict] = {}
     for item in store.get("tournaments") or []:
         if item.get("id"):
-            by_id[item["id"]] = item
-    for item in new_tournaments:
-        if item.get("id"):
-            by_id[item["id"]] = item
+            existing[item["id"]] = item
 
-    kept = [t for t in by_id.values() if _is_future(t, today)]
+    merged: dict[str, dict] = dict(existing)
+    for item in new_tournaments:
+        tid = item.get("id")
+        if not tid:
+            continue
+        prev = existing.get(tid)
+        first_seen = prev.get("first_seen") if prev else None
+        merged[tid] = {**item, "first_seen": first_seen or now_iso}
+
+    kept = [t for t in merged.values() if _is_future(t, today)]
     kept.sort(
         key=lambda t: (t.get("date_start") or "0000-01-01", t.get("id") or ""),
         reverse=True,
     )
 
     metadata = dict(store.get("metadata") or {})
-    metadata["last_scrape"] = now.replace(microsecond=0).isoformat()
+    metadata["last_scrape"] = now_iso
     metadata["tournament_count"] = len(kept)
     if scrape_params:
         metadata["scrape_params"] = scrape_params
@@ -386,11 +395,12 @@ def _is_future(tournament: dict, today: date) -> bool:
         return True
 
 
-def render_markdown(store: dict) -> str:
+def render_markdown(store: dict, *, now: datetime | None = None) -> str:
     """Render the datastore as a GitHub-Pages-friendly markdown page."""
     meta = store.get("metadata") or {}
     tournaments = store.get("tournaments") or []
     params = meta.get("scrape_params") or {}
+    now = now or datetime.now(timezone.utc)
 
     lines = [
         "---",
@@ -421,30 +431,60 @@ def render_markdown(store: dict) -> str:
         lines.append("Aucun tournoi à afficher pour le moment.")
         return "\n".join(lines) + "\n"
 
-    lines.append("| Date | Tournoi | Club | Ville | Distance |")
-    lines.append("|------|---------|------|-------|----------|")
+    lines.append('<table class="tournaments">')
+    lines.append(
+        "  <thead><tr>"
+        "<th>Date</th><th>Tournoi</th><th>Club</th>"
+        "<th>Ville</th><th>Distance</th>"
+        "</tr></thead>"
+    )
+    lines.append("  <tbody>")
     for t in tournaments:
+        row_class = ' class="is-new"' if _is_new(t, now) else ""
         lines.append(
-            "| {date} | {name} | {club} | {city} | {distance} |".format(
-                date=_format_date_range(t),
-                name=_format_name(t),
-                club=_md_cell((t.get("location") or {}).get("club")),
-                city=_md_cell((t.get("location") or {}).get("city")),
-                distance=_md_cell(t.get("distance")),
+            "    <tr{cls}>"
+            "<td>{date}</td>"
+            "<td>{name}{badge}</td>"
+            "<td>{club}</td>"
+            "<td>{city}</td>"
+            "<td>{distance}</td>"
+            "</tr>".format(
+                cls=row_class,
+                date=_html_escape(_format_date_range(t)),
+                name=_format_name_html(t),
+                badge=' <span class="new-badge">NEW</span>' if _is_new(t, now) else "",
+                club=_html_escape((t.get("location") or {}).get("club") or ""),
+                city=_html_escape((t.get("location") or {}).get("city") or ""),
+                distance=_html_escape(t.get("distance") or ""),
             )
         )
+    lines.append("  </tbody>")
+    lines.append("</table>")
 
     return "\n".join(lines) + "\n"
 
 
-def _format_name(t: dict) -> str:
-    name = _md_cell(t.get("name"))
+def _is_new(t: dict, now: datetime) -> bool:
+    raw = t.get("first_seen")
+    if not raw:
+        return False
+    try:
+        seen = datetime.fromisoformat(raw)
+    except ValueError:
+        return False
+    if seen.tzinfo is None:
+        seen = seen.replace(tzinfo=timezone.utc)
+    return (now - seen) <= NEW_WINDOW
+
+
+def _format_name_html(t: dict) -> str:
+    name = _html_escape(t.get("name") or "")
     tid = t.get("id")
     if not name:
         return ""
     if not tid:
         return name
-    return f"[{name}](https://tenup.fft.fr/tournoi/{tid})"
+    return f'<a href="https://tenup.fft.fr/tournoi/{tid}">{name}</a>'
 
 
 def _format_date_range(t: dict) -> str:
@@ -455,10 +495,16 @@ def _format_date_range(t: dict) -> str:
     return start or end or ""
 
 
-def _md_cell(value: str | None) -> str:
+def _html_escape(value: str | None) -> str:
     if not value:
         return ""
-    return str(value).replace("|", "\\|").replace("\n", " ").strip()
+    s = str(value).strip()
+    return (
+        s.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
 
 
 def write_page(store: dict, path: Path = PAGE_PATH) -> None:

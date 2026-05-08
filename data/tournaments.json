@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_scrape": "2026-05-08T11:35:19+00:00",
+    "last_scrape": "2026-05-08T11:57:39+00:00",
     "tournament_count": 12,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
@@ -22,7 +22,8 @@
         "postal_code": "74150",
         "city": "RUMILLY"
       },
-      "distance": "46,3 km"
+      "distance": "46,3 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "175663",
@@ -37,7 +38,8 @@
         "postal_code": "74150",
         "city": "RUMILLY"
       },
-      "distance": "46,3 km"
+      "distance": "46,3 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "192801",
@@ -52,7 +54,8 @@
         "postal_code": "74150",
         "city": "VALLIERES-SUR-FIER"
       },
-      "distance": "42,8 km"
+      "distance": "42,8 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "205561",
@@ -67,7 +70,8 @@
         "postal_code": "74930",
         "city": "REIGNIER"
       },
-      "distance": "21,9 km"
+      "distance": "21,9 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "189042",
@@ -82,7 +86,8 @@
         "postal_code": "74320",
         "city": "SEVRIER"
       },
-      "distance": "45,4 km"
+      "distance": "45,4 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "189044",
@@ -97,7 +102,8 @@
         "postal_code": "74320",
         "city": "SEVRIER"
       },
-      "distance": "45,4 km"
+      "distance": "45,4 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "211531",
@@ -112,7 +118,8 @@
         "postal_code": "39150",
         "city": "ST LAURENT EN GRANDVAUX"
       },
-      "distance": "35,9 km"
+      "distance": "35,9 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "189023",
@@ -127,7 +134,8 @@
         "postal_code": "01460",
         "city": "MONTREAL LA CLUSE"
       },
-      "distance": "40,5 km"
+      "distance": "40,5 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "208032",
@@ -142,7 +150,8 @@
         "postal_code": "74330",
         "city": "POISY"
       },
-      "distance": "37,5 km"
+      "distance": "37,5 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "208031",
@@ -157,7 +166,8 @@
         "postal_code": "74330",
         "city": "POISY"
       },
-      "distance": "37,5 km"
+      "distance": "37,5 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "204030",
@@ -172,7 +182,8 @@
         "postal_code": "39130",
         "city": "CLAIRVAUX LES LACS"
       },
-      "distance": "43,1 km"
+      "distance": "43,1 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     },
     {
       "id": "207854",
@@ -187,7 +198,8 @@
         "postal_code": "39130",
         "city": "CLAIRVAUX LES LACS"
       },
-      "distance": "43,1 km"
+      "distance": "43,1 km",
+      "first_seen": "2026-05-06T11:58:17+00:00"
     }
   ]
 }

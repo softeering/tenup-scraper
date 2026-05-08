@@ -12,7 +12,45 @@ footer,
 .main-content,
 .page-content,
 .wrapper {
-  max-width: 1000px;
+  width: 1000px;
   margin: 2rem auto;
   padding: 0 1.5rem;
+}
+
+table.tournaments {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.tournaments th,
+table.tournaments td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e1e4e8;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.tournaments tr.is-new {
+  background-color: #d7f5dc;
+}
+
+table.tournaments tr.is-new td {
+  font-weight: 500;
+}
+
+.new-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #2ea44f;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+section {
+  width: 100%;
+  float: none;
 }
