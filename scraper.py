@@ -13,8 +13,9 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from playwright.sync_api import sync_playwright
 
@@ -28,6 +29,7 @@ STORE_PATH = REPO_ROOT / "data" / "tournaments.json"
 PAGE_PATH = REPO_ROOT / "docs" / "index.md"
 
 NEW_WINDOW = timedelta(hours=48)
+LOCAL_TZ = ZoneInfo("Europe/Paris")
 
 COLLECT_FORM_JS = """
 () => {
@@ -350,8 +352,8 @@ def refresh_store(
     ``today`` (defaults to today, UTC), sorts by ``date_start`` asc,
     and stamps ``metadata`` with scrape time + parameters.
     """
-    now = now or datetime.now(timezone.utc)
-    today = today or date.today()
+    now = now or datetime.now(LOCAL_TZ)
+    today = today or datetime.now(LOCAL_TZ).date()
     now_iso = now.replace(microsecond=0).isoformat()
 
     existing: dict[str, dict] = {}
@@ -370,8 +372,7 @@ def refresh_store(
 
     kept = [t for t in merged.values() if _is_future(t, today)]
     kept.sort(
-        key=lambda t: (t.get("date_start") or "0000-01-01", t.get("id") or ""),
-        reverse=True,
+        key=lambda t: (t.get("date_start") or "9999-12-31", t.get("id") or ""),
     )
 
     metadata = dict(store.get("metadata") or {})
@@ -400,7 +401,7 @@ def render_markdown(store: dict, *, now: datetime | None = None) -> str:
     meta = store.get("metadata") or {}
     tournaments = store.get("tournaments") or []
     params = meta.get("scrape_params") or {}
-    now = now or datetime.now(timezone.utc)
+    now = now or datetime.now(LOCAL_TZ)
 
     lines = [
         "---",
@@ -473,7 +474,7 @@ def _is_new(t: dict, now: datetime) -> bool:
     except ValueError:
         return False
     if seen.tzinfo is None:
-        seen = seen.replace(tzinfo=timezone.utc)
+        seen = seen.replace(tzinfo=LOCAL_TZ)
     return (now - seen) <= NEW_WINDOW
 
 
