@@ -1,0 +1,9 @@
+---
+---
+@import "{{ site.theme }}";
+
+.main-content,
+.page-content,
+.wrapper {
+  max-width: 1200px;
+}
