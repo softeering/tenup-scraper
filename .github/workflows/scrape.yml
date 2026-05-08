@@ -13,6 +13,9 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,8 +34,36 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
+      - name: Snapshot tournament IDs before scrape
+        run: |
+          if [ -f data/tournaments.json ]; then
+            jq -r '.tournaments[].id' data/tournaments.json | sort -u > /tmp/old_ids
+          else
+            : > /tmp/old_ids
+          fi
+
       - name: Run scraper
         run: python scraper.py
+
+      - name: Count new tournaments
+        id: diff
+        run: |
+          jq -r '.tournaments[].id' data/tournaments.json | sort -u > /tmp/new_ids
+          NEW_COUNT=$(comm -13 /tmp/old_ids /tmp/new_ids | wc -l | tr -d ' ')
+          echo "new_count=$NEW_COUNT" >> "$GITHUB_OUTPUT"
+          echo "Found $NEW_COUNT new tournament(s)."
+
+      - name: Open issue when new tournaments are found
+        if: steps.diff.outputs.new_count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_COUNT: ${{ steps.diff.outputs.new_count }}
+        run: |
+          gh issue create \
+            --title "🎾 $NEW_COUNT nouveau(x) tournoi(s) détecté(s)" \
+            --body "$NEW_COUNT nouveau(x) tournoi(s) depuis le dernier scrape.
+
+          👉 https://softeering.github.io/tenup-scraper/"
 
       - name: Commit & push changes
         run: |
