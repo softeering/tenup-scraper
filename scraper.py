@@ -484,7 +484,10 @@ def _format_name_html(t: dict) -> str:
         return ""
     if not tid:
         return name
-    return f'<a href="https://tenup.fft.fr/tournoi/{tid}">{name}</a>'
+    return (
+        f'<a href="https://tenup.fft.fr/tournoi/{tid}" '
+        f'target="_blank" rel="noopener noreferrer">{name}</a>'
+    )
 
 
 def _format_date_range(t: dict) -> str:
