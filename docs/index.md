@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir
 
-_Dernière mise à jour : 2026-05-10T20:25:29+02:00_  
+_Dernière mise à jour : 2026-05-10T21:29:09+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 _Total : **15** tournoi(s)._
 
