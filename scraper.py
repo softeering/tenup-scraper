@@ -355,9 +355,9 @@ def refresh_store(
 ) -> dict:
     """Merge freshly-scraped tournaments into ``store`` in place.
 
-    Upserts by ``id``, drops entries whose ``date_start`` is before
-    ``today`` (defaults to today, UTC), sorts by ``date_start`` asc,
-    and stamps ``metadata`` with scrape time + parameters.
+    Upserts by ``id``, drops entries whose ``date_start`` is on or before
+    ``today`` (defaults to today in ``LOCAL_TZ``), sorts by ``date_start``
+    asc, and stamps ``metadata`` with scrape time + parameters.
     """
     now = now or datetime.now(LOCAL_TZ)
     today = today or datetime.now(LOCAL_TZ).date()
@@ -398,7 +398,7 @@ def _is_future(tournament: dict, today: date) -> bool:
     if not raw:
         return True
     try:
-        return date.fromisoformat(raw[:10]) >= today
+        return date.fromisoformat(raw[:10]) > today
     except ValueError:
         return True
 
