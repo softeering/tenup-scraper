@@ -398,7 +398,7 @@ def _is_future(tournament: dict, today: date) -> bool:
     if not raw:
         return True
     try:
-        return date.fromisoformat(raw[:10]) > today
+        return date.fromisoformat(raw[:10]) >= today
     except ValueError:
         return True
 
@@ -415,7 +415,7 @@ def render_markdown(store: dict, *, now: datetime | None = None) -> str:
         "title: Tournois TenUp",
         "---",
         "",
-        "# Tournois de tennis à venir",
+        f"# Tournois de tennis à venir ({len(tournaments)})",
         "",
     ]
 
@@ -432,7 +432,6 @@ def render_markdown(store: dict, *, now: datetime | None = None) -> str:
             bits.append(f"catégorie d'âge **{params['age_id']}**")
         if bits:
             lines.append("_Recherche : " + ", ".join(bits) + "._")
-    lines.append(f"_Total : **{len(tournaments)}** tournoi(s)._")
     lines.append("")
 
     if not tournaments:
