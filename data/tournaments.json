@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "last_scrape": "2026-05-08T22:26:41+02:00",
-    "tournament_count": 12,
+    "last_scrape": "2026-05-12T18:49:31+02:00",
+    "tournament_count": 15,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
-      "age_id": 65
+      "age_id": "70|80|96|97|98|90|95|65|99|100"
     }
   },
   "tournaments": [
@@ -72,6 +72,22 @@
       },
       "distance": "37,5 km",
       "first_seen": "2026-05-07T15:26:17+02:00"
+    },
+    {
+      "id": "192432",
+      "code": "20265074028600192432",
+      "name": "TMC Vert 9/10 ans Les Carroz",
+      "date_start": "2026-06-13",
+      "date_end": "2026-06-13",
+      "location": {
+        "club": "ARACHES T.C.LES CARROZ",
+        "venue": "Les Carroz",
+        "address": "455 Route du Mt Favy",
+        "postal_code": "74300",
+        "city": "LES CARROZ D ARACHES"
+      },
+      "distance": "49,6 km",
+      "first_seen": "2026-05-08T23:17:07+02:00"
     },
     {
       "id": "189023",
@@ -200,6 +216,38 @@
       },
       "distance": "46,3 km",
       "first_seen": "2026-05-07T15:26:17+02:00"
+    },
+    {
+      "id": "191435",
+      "code": "20265074006900191435",
+      "name": "KINDER JOY OF MOVING TENNIS TROPHY VERT 2026",
+      "date_start": "2026-07-25",
+      "date_end": "2026-08-01",
+      "location": {
+        "club": "THONON LES BAINS TC",
+        "venue": "TC Thonon",
+        "address": "avenue de la grangette",
+        "postal_code": "74200",
+        "city": "THONON LES BAINS"
+      },
+      "distance": "31,3 km",
+      "first_seen": "2026-05-08T23:17:07+02:00"
+    },
+    {
+      "id": "209298",
+      "code": "20265074032300209298",
+      "name": "TMC U10 ORANGE",
+      "date_start": "2026-07-30",
+      "date_end": "2026-07-30",
+      "location": {
+        "club": "MESSERY TC",
+        "venue": "TC MESSERY",
+        "address": "Route de Parteyi 1",
+        "postal_code": "74140",
+        "city": "MESSERY"
+      },
+      "distance": "17,5 km",
+      "first_seen": "2026-05-08T23:17:07+02:00"
     }
   ]
 }
