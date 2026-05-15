@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (16)
+# Tournois de tennis à venir (17)
 
-_Dernière mise à jour : 2026-05-15T01:23:31+02:00_  
+_Dernière mise à jour : 2026-05-15T02:51:56+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -26,5 +26,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-07-25 → 2026-08-01</td><td><a href="https://tenup.fft.fr/tournoi/191435" target="_blank" rel="noopener noreferrer">KINDER JOY OF MOVING TENNIS TROPHY VERT 2026</a></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
     <tr><td>2026-07-30</td><td><a href="https://tenup.fft.fr/tournoi/209298" target="_blank" rel="noopener noreferrer">TMC U10 ORANGE</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
     <tr class="is-new"><td>2026-08-13</td><td><a href="https://tenup.fft.fr/tournoi/209411" target="_blank" rel="noopener noreferrer">TMC U10 ORANGE</a> <span class="new-badge">NEW</span></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
+    <tr class="is-new"><td>2026-08-14 → 2026-08-22</td><td><a href="https://tenup.fft.fr/tournoi/192842" target="_blank" rel="noopener noreferrer">NATIONAL TENNIS CUP JUNIOR</a> <span class="new-badge">NEW</span></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
   </tbody>
 </table>
