@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (17)
+# Tournois de tennis à venir (16)
 
-_Dernière mise à jour : 2026-05-16T23:20:45+02:00_  
+_Dernière mise à jour : 2026-05-17T00:20:16+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-05-16</td><td><a href="https://tenup.fft.fr/tournoi/207854" target="_blank" rel="noopener noreferrer">TMC VERT</a></td><td>TENNIS PADEL DE CLAIRVAUX-LES-LACS</td><td>CLAIRVAUX LES LACS</td><td>43,1 km</td></tr>
     <tr><td>2026-05-23</td><td><a href="https://tenup.fft.fr/tournoi/204030" target="_blank" rel="noopener noreferrer">TMC ORANGE</a></td><td>TENNIS PADEL DE CLAIRVAUX-LES-LACS</td><td>CLAIRVAUX LES LACS</td><td>43,1 km</td></tr>
     <tr><td>2026-05-30</td><td><a href="https://tenup.fft.fr/tournoi/208031" target="_blank" rel="noopener noreferrer">défi orange</a></td><td>POISY TC</td><td>POISY</td><td>37,5 km</td></tr>
     <tr><td>2026-05-30</td><td><a href="https://tenup.fft.fr/tournoi/208032" target="_blank" rel="noopener noreferrer">défi vert TC POISY</a></td><td>POISY TC</td><td>POISY</td><td>37,5 km</td></tr>
