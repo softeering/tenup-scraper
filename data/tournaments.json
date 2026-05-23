@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-05-23T23:21:52+02:00",
-    "tournament_count": 18,
+    "last_scrape": "2026-05-24T00:21:12+02:00",
+    "tournament_count": 17,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -9,22 +9,6 @@
     }
   },
   "tournaments": [
-    {
-      "id": "204030",
-      "code": "20265139009700204030",
-      "name": "TMC ORANGE",
-      "date_start": "2026-05-23",
-      "date_end": "2026-05-23",
-      "location": {
-        "club": "TENNIS PADEL DE CLAIRVAUX-LES-LACS",
-        "venue": "Tennis Padel Clairva",
-        "address": "Chemin des Tilleuls",
-        "postal_code": "39130",
-        "city": "CLAIRVAUX LES LACS"
-      },
-      "distance": "43,1 km",
-      "first_seen": "2026-05-07T15:26:17+02:00"
-    },
     {
       "id": "208031",
       "code": "20265074030600208031",
