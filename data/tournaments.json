@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-05-27T15:19:37+02:00",
-    "tournament_count": 17,
+    "last_scrape": "2026-05-27T17:11:05+02:00",
+    "tournament_count": 18,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -40,6 +40,22 @@
       },
       "distance": "37,5 km",
       "first_seen": "2026-05-07T15:26:17+02:00"
+    },
+    {
+      "id": "213433",
+      "code": "20265074030600213433",
+      "name": "défi vert 2 TC POISY",
+      "date_start": "2026-05-30",
+      "date_end": "2026-05-30",
+      "location": {
+        "club": "POISY TC",
+        "venue": "montagne d'âge",
+        "address": "route de la montagne",
+        "postal_code": "74330",
+        "city": "POISY"
+      },
+      "distance": "37,5 km",
+      "first_seen": "2026-05-27T17:11:05+02:00"
     },
     {
       "id": "192432",
