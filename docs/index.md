@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (19)
 
-_Dernière mise à jour : 2026-05-29T15:14:44+02:00_  
+_Dernière mise à jour : 2026-05-29T17:13:59+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -12,7 +12,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
   <tbody>
     <tr><td>2026-05-30</td><td><a href="https://tenup.fft.fr/tournoi/208031" target="_blank" rel="noopener noreferrer">défi orange</a></td><td>POISY TC</td><td>POISY</td><td>37,5 km</td></tr>
     <tr><td>2026-05-30</td><td><a href="https://tenup.fft.fr/tournoi/208032" target="_blank" rel="noopener noreferrer">défi vert TC POISY</a></td><td>POISY TC</td><td>POISY</td><td>37,5 km</td></tr>
-    <tr class="is-new"><td>2026-05-30</td><td><a href="https://tenup.fft.fr/tournoi/213433" target="_blank" rel="noopener noreferrer">défi vert 2 TC POISY</a> <span class="new-badge">NEW</span></td><td>POISY TC</td><td>POISY</td><td>37,5 km</td></tr>
+    <tr><td>2026-05-30</td><td><a href="https://tenup.fft.fr/tournoi/213433" target="_blank" rel="noopener noreferrer">défi vert 2 TC POISY</a></td><td>POISY TC</td><td>POISY</td><td>37,5 km</td></tr>
     <tr><td>2026-06-13</td><td><a href="https://tenup.fft.fr/tournoi/192432" target="_blank" rel="noopener noreferrer">TMC Vert 9/10 ans Les Carroz</a></td><td>ARACHES T.C.LES CARROZ</td><td>LES CARROZ D ARACHES</td><td>49,6 km</td></tr>
     <tr class="is-new"><td>2026-06-13</td><td><a href="https://tenup.fft.fr/tournoi/212481" target="_blank" rel="noopener noreferrer">TMC orange TC Nantua</a> <span class="new-badge">NEW</span></td><td>NANTUA (TENNIS CLUB DE)</td><td>NANTUA</td><td>38,7 km</td></tr>
     <tr><td>2026-06-14</td><td><a href="https://tenup.fft.fr/tournoi/189023" target="_blank" rel="noopener noreferrer">TMC Vert 7/10 ans mixte</a></td><td>MONTREAL LA CLUSE (AS)</td><td>MONTREAL LA CLUSE</td><td>40,5 km</td></tr>
