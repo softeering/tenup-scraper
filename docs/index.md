@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (18)
 
-_Dernière mise à jour : 2026-06-03T21:26:50+02:00_  
+_Dernière mise à jour : 2026-06-03T23:10:22+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -14,8 +14,8 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-06-13</td><td><a href="https://tenup.fft.fr/tournoi/212481" target="_blank" rel="noopener noreferrer">TMC orange TC Nantua</a></td><td>NANTUA (TENNIS CLUB DE)</td><td>NANTUA</td><td>38,7 km</td></tr>
     <tr><td>2026-06-14</td><td><a href="https://tenup.fft.fr/tournoi/189023" target="_blank" rel="noopener noreferrer">TMC Vert 7/10 ans mixte</a></td><td>MONTREAL LA CLUSE (AS)</td><td>MONTREAL LA CLUSE</td><td>40,5 km</td></tr>
     <tr><td>2026-06-20</td><td><a href="https://tenup.fft.fr/tournoi/211531" target="_blank" rel="noopener noreferrer">TMC ORANGE TC du GRANDVAUX</a></td><td>TENNIS CLUB DU GRANDVAUX</td><td>ST LAURENT EN GRANDVAUX</td><td>35,9 km</td></tr>
-    <tr class="is-new"><td>2026-06-28</td><td><a href="https://tenup.fft.fr/tournoi/213173" target="_blank" rel="noopener noreferrer">Finale U10 orange Douvaine chablais tour</a> <span class="new-badge">NEW</span></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
-    <tr class="is-new"><td>2026-06-28</td><td><a href="https://tenup.fft.fr/tournoi/213174" target="_blank" rel="noopener noreferrer">Finale U10 Vert Douvaine chablais tour</a> <span class="new-badge">NEW</span></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
+    <tr><td>2026-06-28</td><td><a href="https://tenup.fft.fr/tournoi/213173" target="_blank" rel="noopener noreferrer">Finale U10 orange Douvaine chablais tour</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
+    <tr><td>2026-06-28</td><td><a href="https://tenup.fft.fr/tournoi/213174" target="_blank" rel="noopener noreferrer">Finale U10 Vert Douvaine chablais tour</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
     <tr><td>2026-07-07 → 2026-07-08</td><td><a href="https://tenup.fft.fr/tournoi/189044" target="_blank" rel="noopener noreferrer">TMC U10 Vert Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-07-10</td><td><a href="https://tenup.fft.fr/tournoi/189042" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-07-11</td><td><a href="https://tenup.fft.fr/tournoi/205561" target="_blank" rel="noopener noreferrer">TMC Orange des Rocailles</a></td><td>REIGNIER T.C.LES ROCAILLES</td><td>REIGNIER</td><td>21,9 km</td></tr>
