@@ -2,16 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (18)
+# Tournois de tennis à venir (16)
 
-_Dernière mise à jour : 2026-06-13T23:32:04+02:00_  
+_Dernière mise à jour : 2026-06-14T00:27:15+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-06-13</td><td><a href="https://tenup.fft.fr/tournoi/192432" target="_blank" rel="noopener noreferrer">TMC Vert 9/10 ans Les Carroz</a></td><td>ARACHES T.C.LES CARROZ</td><td>LES CARROZ D ARACHES</td><td>49,6 km</td></tr>
-    <tr><td>2026-06-13</td><td><a href="https://tenup.fft.fr/tournoi/212481" target="_blank" rel="noopener noreferrer">TMC orange TC Nantua</a></td><td>NANTUA (TENNIS CLUB DE)</td><td>NANTUA</td><td>38,7 km</td></tr>
     <tr><td>2026-06-14</td><td><a href="https://tenup.fft.fr/tournoi/189023" target="_blank" rel="noopener noreferrer">TMC Vert 7/10 ans mixte</a></td><td>MONTREAL LA CLUSE (AS)</td><td>MONTREAL LA CLUSE</td><td>40,5 km</td></tr>
     <tr><td>2026-06-20</td><td><a href="https://tenup.fft.fr/tournoi/211531" target="_blank" rel="noopener noreferrer">TMC ORANGE TC du GRANDVAUX</a></td><td>TENNIS CLUB DU GRANDVAUX</td><td>ST LAURENT EN GRANDVAUX</td><td>35,9 km</td></tr>
     <tr><td>2026-06-28</td><td><a href="https://tenup.fft.fr/tournoi/213173" target="_blank" rel="noopener noreferrer">Finale U10 orange Douvaine chablais tour</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>

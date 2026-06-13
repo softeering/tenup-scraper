@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-06-13T23:32:04+02:00",
-    "tournament_count": 18,
+    "last_scrape": "2026-06-14T00:27:15+02:00",
+    "tournament_count": 16,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -9,38 +9,6 @@
     }
   },
   "tournaments": [
-    {
-      "id": "192432",
-      "code": "20265074028600192432",
-      "name": "TMC Vert 9/10 ans Les Carroz",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location": {
-        "club": "ARACHES T.C.LES CARROZ",
-        "venue": "Les Carroz",
-        "address": "455 Route du Mt Favy",
-        "postal_code": "74300",
-        "city": "LES CARROZ D ARACHES"
-      },
-      "distance": "49,6 km",
-      "first_seen": "2026-05-08T23:17:07+02:00"
-    },
-    {
-      "id": "212481",
-      "code": "20265001012300212481",
-      "name": "TMC orange TC Nantua",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location": {
-        "club": "NANTUA (TENNIS CLUB DE)",
-        "venue": "01130_NANTUA",
-        "address": "Complexe Sportif",
-        "postal_code": "01130",
-        "city": "NANTUA"
-      },
-      "distance": "38,7 km",
-      "first_seen": "2026-05-27T19:11:44+02:00"
-    },
     {
       "id": "189023",
       "code": "20265001021800189023",
