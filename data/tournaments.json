@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-06-18T21:55:07+02:00",
-    "tournament_count": 16,
+    "last_scrape": "2026-06-18T22:55:24+02:00",
+    "tournament_count": 17,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -216,6 +216,22 @@
       },
       "distance": "46,3 km",
       "first_seen": "2026-05-15T02:51:56+02:00"
+    },
+    {
+      "id": "216310",
+      "code": "20265074006400216310",
+      "name": "TMC orange",
+      "date_start": "2026-08-17",
+      "date_end": "2026-08-17",
+      "location": {
+        "club": "RUMILLY TC",
+        "venue": "TENNIS CLUB",
+        "address": "impasse des tennis",
+        "postal_code": "74150",
+        "city": "RUMILLY"
+      },
+      "distance": "46,3 km",
+      "first_seen": "2026-06-18T22:55:24+02:00"
     },
     {
       "id": "189048",
