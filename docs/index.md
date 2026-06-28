@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (16)
+# Tournois de tennis à venir (17)
 
-_Dernière mise à jour : 2026-06-28T01:26:30+02:00_  
+_Dernière mise à jour : 2026-06-28T02:59:40+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -26,5 +26,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-08-18</td><td><a href="https://tenup.fft.fr/tournoi/189048" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-08-18</td><td><a href="https://tenup.fft.fr/tournoi/216311" target="_blank" rel="noopener noreferrer">TMC Vert</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-08-20 → 2026-08-21</td><td><a href="https://tenup.fft.fr/tournoi/189049" target="_blank" rel="noopener noreferrer">TMC U10 Vert Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
+    <tr class="is-new"><td>2026-09-27</td><td><a href="https://tenup.fft.fr/tournoi/211089" target="_blank" rel="noopener noreferrer">TMC balles oranges 7/9 ans</a> <span class="new-badge">NEW</span></td><td>TENNIS CLUB DES BRASSES</td><td>VIUZ EN SALLAZ</td><td>28,2 km</td></tr>
   </tbody>
 </table>
