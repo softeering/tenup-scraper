@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-06-28T23:27:38+02:00",
-    "tournament_count": 17,
+    "last_scrape": "2026-06-29T00:26:36+02:00",
+    "tournament_count": 15,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -9,38 +9,6 @@
     }
   },
   "tournaments": [
-    {
-      "id": "213173",
-      "code": "20265074014100213173",
-      "name": "Finale U10 orange Douvaine chablais tour",
-      "date_start": "2026-06-28",
-      "date_end": "2026-06-28",
-      "location": {
-        "club": "DOUVAINE TC",
-        "venue": "TC DOUVAINE",
-        "address": "2 Allée la Colline",
-        "postal_code": "74140",
-        "city": "DOUVAINE"
-      },
-      "distance": "17,6 km",
-      "first_seen": "2026-06-01T22:30:33+02:00"
-    },
-    {
-      "id": "213174",
-      "code": "20265074014100213174",
-      "name": "Finale U10 Vert Douvaine chablais tour",
-      "date_start": "2026-06-28",
-      "date_end": "2026-06-28",
-      "location": {
-        "club": "DOUVAINE TC",
-        "venue": "TC DOUVAINE",
-        "address": "2 Allée la Colline",
-        "postal_code": "74140",
-        "city": "DOUVAINE"
-      },
-      "distance": "17,6 km",
-      "first_seen": "2026-06-01T22:30:33+02:00"
-    },
     {
       "id": "189044",
       "code": "20265074018100189044",

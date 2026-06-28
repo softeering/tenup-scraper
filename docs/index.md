@@ -2,16 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (17)
+# Tournois de tennis à venir (15)
 
-_Dernière mise à jour : 2026-06-28T23:27:38+02:00_  
+_Dernière mise à jour : 2026-06-29T00:26:36+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-06-28</td><td><a href="https://tenup.fft.fr/tournoi/213173" target="_blank" rel="noopener noreferrer">Finale U10 orange Douvaine chablais tour</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
-    <tr><td>2026-06-28</td><td><a href="https://tenup.fft.fr/tournoi/213174" target="_blank" rel="noopener noreferrer">Finale U10 Vert Douvaine chablais tour</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
     <tr><td>2026-07-07 → 2026-07-08</td><td><a href="https://tenup.fft.fr/tournoi/189044" target="_blank" rel="noopener noreferrer">TMC U10 Vert Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-07-10</td><td><a href="https://tenup.fft.fr/tournoi/189042" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-07-11</td><td><a href="https://tenup.fft.fr/tournoi/205561" target="_blank" rel="noopener noreferrer">TMC Orange des Rocailles</a></td><td>REIGNIER T.C.LES ROCAILLES</td><td>REIGNIER</td><td>21,9 km</td></tr>
