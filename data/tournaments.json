@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_scrape": "2026-06-30T09:26:10+02:00",
+    "last_scrape": "2026-06-30T11:13:47+02:00",
     "tournament_count": 15,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
@@ -48,7 +48,7 @@
       "date_start": "2026-07-11",
       "date_end": "2026-07-11",
       "location": {
-        "club": "REIGNIER T.C.LES ROCAILLES",
+        "club": "TC LES ROCAILLES ARVE ET SALEVE",
         "venue": "TC LES ROCAILLES",
         "address": "1077 rte des Rocailles",
         "postal_code": "74930",

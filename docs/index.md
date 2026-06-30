@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (15)
 
-_Dernière mise à jour : 2026-06-30T09:26:10+02:00_  
+_Dernière mise à jour : 2026-06-30T11:13:47+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -12,7 +12,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
   <tbody>
     <tr><td>2026-07-07 → 2026-07-08</td><td><a href="https://tenup.fft.fr/tournoi/189044" target="_blank" rel="noopener noreferrer">TMC U10 Vert Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-07-10</td><td><a href="https://tenup.fft.fr/tournoi/189042" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
-    <tr><td>2026-07-11</td><td><a href="https://tenup.fft.fr/tournoi/205561" target="_blank" rel="noopener noreferrer">TMC Orange des Rocailles</a></td><td>REIGNIER T.C.LES ROCAILLES</td><td>REIGNIER</td><td>21,9 km</td></tr>
+    <tr><td>2026-07-11</td><td><a href="https://tenup.fft.fr/tournoi/205561" target="_blank" rel="noopener noreferrer">TMC Orange des Rocailles</a></td><td>TC LES ROCAILLES ARVE ET SALEVE</td><td>REIGNIER</td><td>21,9 km</td></tr>
     <tr><td>2026-07-14</td><td><a href="https://tenup.fft.fr/tournoi/192801" target="_blank" rel="noopener noreferrer">TMC Orange U10 Vallières</a></td><td>VALLIERES TENNIS CLUB</td><td>VALLIERES-SUR-FIER</td><td>42,8 km</td></tr>
     <tr><td>2026-07-16 → 2026-07-17</td><td><a href="https://tenup.fft.fr/tournoi/175663" target="_blank" rel="noopener noreferrer">TMC orange Rumilly</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-07-23 → 2026-07-24</td><td><a href="https://tenup.fft.fr/tournoi/175666" target="_blank" rel="noopener noreferrer">TMC vert</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
