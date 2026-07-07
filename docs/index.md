@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (15)
+# Tournois de tennis à venir (14)
 
-_Dernière mise à jour : 2026-07-07T23:32:39+02:00_  
+_Dernière mise à jour : 2026-07-08T00:26:58+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-07-07 → 2026-07-08</td><td><a href="https://tenup.fft.fr/tournoi/189044" target="_blank" rel="noopener noreferrer">TMC U10 Vert Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-07-10</td><td><a href="https://tenup.fft.fr/tournoi/189042" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-07-11</td><td><a href="https://tenup.fft.fr/tournoi/205561" target="_blank" rel="noopener noreferrer">TMC Orange des Rocailles</a></td><td>TC LES ROCAILLES ARVE ET SALEVE</td><td>REIGNIER</td><td>21,9 km</td></tr>
     <tr><td>2026-07-14</td><td><a href="https://tenup.fft.fr/tournoi/192801" target="_blank" rel="noopener noreferrer">TMC Orange U10 Vallières</a></td><td>VALLIERES TENNIS CLUB</td><td>VALLIERES-SUR-FIER</td><td>42,8 km</td></tr>
