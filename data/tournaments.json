@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-07-08T05:08:04+02:00",
-    "tournament_count": 15,
+    "last_scrape": "2026-08-06T16:43:58+02:00",
+    "tournament_count": 17,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -10,244 +10,208 @@
   },
   "tournaments": [
     {
-      "id": "189042",
-      "code": "20265074018100189042",
-      "name": "TMC U10 Orange Sevrier",
-      "date_start": "2026-07-10",
-      "date_end": "2026-07-10",
-      "location": {
-        "club": "SEVRIER TC",
-        "venue": "74320 SEVRIER",
-        "address": "26, route du Port",
-        "postal_code": "74320",
-        "city": "SEVRIER"
-      },
-      "distance": "45,4 km",
-      "first_seen": "2026-05-07T15:26:17+02:00"
-    },
-    {
-      "id": "205561",
-      "code": "20265074027000205561",
-      "name": "TMC Orange des Rocailles",
-      "date_start": "2026-07-11",
-      "date_end": "2026-07-11",
-      "location": {
-        "club": "TC LES ROCAILLES ARVE ET SALEVE",
-        "venue": "TC LES ROCAILLES",
-        "address": "1077 rte des Rocailles",
-        "postal_code": "74930",
-        "city": "REIGNIER"
-      },
-      "distance": "21,9 km",
-      "first_seen": "2026-05-07T15:26:17+02:00"
-    },
-    {
-      "id": "192801",
-      "code": "20265074062400192801",
-      "name": "TMC Orange U10 Vallières",
-      "date_start": "2026-07-14",
-      "date_end": "2026-07-14",
-      "location": {
-        "club": "VALLIERES TENNIS CLUB",
-        "venue": "VALLIERES-SUR-F T.C.",
-        "address": "ROUTE SUR LES MARAIS",
-        "postal_code": "74150",
-        "city": "VALLIERES-SUR-FIER"
-      },
-      "distance": "42,8 km",
-      "first_seen": "2026-05-07T15:26:17+02:00"
-    },
-    {
-      "id": "175663",
-      "code": "20265074006400175663",
-      "name": "TMC orange Rumilly",
-      "date_start": "2026-07-16",
-      "date_end": "2026-07-17",
-      "location": {
-        "club": "RUMILLY TC",
-        "venue": "TENNIS CLUB",
-        "address": "impasse des tennis",
-        "postal_code": "74150",
-        "city": "RUMILLY"
-      },
-      "distance": "46,3 km",
-      "first_seen": "2026-05-07T15:26:17+02:00"
-    },
-    {
-      "id": "175666",
-      "code": "20265074006400175666",
-      "name": "TMC vert ",
-      "date_start": "2026-07-23",
-      "date_end": "2026-07-24",
-      "location": {
-        "club": "RUMILLY TC",
-        "venue": "TENNIS CLUB",
-        "address": "impasse des tennis",
-        "postal_code": "74150",
-        "city": "RUMILLY"
-      },
-      "distance": "46,3 km",
-      "first_seen": "2026-05-07T15:26:17+02:00"
-    },
-    {
-      "id": "191435",
-      "code": "20265074006900191435",
-      "name": "KINDER JOY OF MOVING TENNIS TROPHY VERT 2026",
-      "date_start": "2026-07-25",
-      "date_end": "2026-08-01",
-      "location": {
-        "club": "THONON LES BAINS TC",
-        "venue": "TC Thonon",
-        "address": "avenue de la grangette",
-        "postal_code": "74200",
-        "city": "THONON LES BAINS"
-      },
-      "distance": "31,3 km",
-      "first_seen": "2026-05-08T23:17:07+02:00"
-    },
-    {
-      "id": "209298",
-      "code": "20265074032300209298",
-      "name": "TMC U10 ORANGE",
-      "date_start": "2026-07-30",
-      "date_end": "2026-07-30",
-      "location": {
-        "club": "MESSERY TC",
-        "venue": "TC MESSERY",
-        "address": "Route de Parteyi 1",
-        "postal_code": "74140",
-        "city": "MESSERY"
-      },
-      "distance": "17,5 km",
-      "first_seen": "2026-05-08T23:17:07+02:00"
-    },
-    {
-      "id": "209411",
-      "code": "20265074032300209411",
+      "id": "MOJA_209411",
       "name": "TMC U10 ORANGE",
       "date_start": "2026-08-13",
       "date_end": "2026-08-13",
       "location": {
         "club": "MESSERY TC",
-        "venue": "TC MESSERY",
-        "address": "Route de Parteyi 1",
-        "postal_code": "74140",
         "city": "MESSERY"
       },
       "distance": "17,5 km",
-      "first_seen": "2026-05-14T02:54:29+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
     },
     {
-      "id": "192842",
-      "code": "20265074006400192842",
+      "id": "MOJA_192842",
       "name": "NATIONAL TENNIS CUP JUNIOR",
       "date_start": "2026-08-14",
       "date_end": "2026-08-22",
       "location": {
         "club": "RUMILLY TC",
-        "venue": "TENNIS CLUB",
-        "address": "impasse des tennis",
-        "postal_code": "74150",
         "city": "RUMILLY"
       },
       "distance": "46,3 km",
-      "first_seen": "2026-05-15T02:51:56+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
     },
     {
-      "id": "216310",
-      "code": "20265074006400216310",
+      "id": "MOJA_216310",
       "name": "TMC orange",
       "date_start": "2026-08-17",
       "date_end": "2026-08-17",
       "location": {
         "club": "RUMILLY TC",
-        "venue": "TENNIS CLUB",
-        "address": "impasse des tennis",
-        "postal_code": "74150",
         "city": "RUMILLY"
       },
       "distance": "46,3 km",
-      "first_seen": "2026-06-18T22:55:24+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
     },
     {
-      "id": "189048",
-      "code": "20265074018100189048",
+      "id": "MOJA_189048",
       "name": "TMC U10 Orange Sevrier",
       "date_start": "2026-08-18",
       "date_end": "2026-08-18",
       "location": {
         "club": "SEVRIER TC",
-        "venue": "74320 SEVRIER",
-        "address": "26, route du Port",
-        "postal_code": "74320",
         "city": "SEVRIER"
       },
       "distance": "45,4 km",
-      "first_seen": "2026-05-19T02:56:14+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
     },
     {
-      "id": "216311",
-      "code": "20265074006400216311",
+      "id": "MOJA_216311",
       "name": "TMC Vert",
       "date_start": "2026-08-18",
       "date_end": "2026-08-18",
       "location": {
         "club": "RUMILLY TC",
-        "venue": "TENNIS CLUB",
-        "address": "impasse des tennis",
-        "postal_code": "74150",
         "city": "RUMILLY"
       },
       "distance": "46,3 km",
-      "first_seen": "2026-06-18T13:27:44+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
     },
     {
-      "id": "189049",
-      "code": "20265074018100189049",
+      "id": "MOJA_189049",
       "name": "TMC U10 Vert Sevrier",
       "date_start": "2026-08-20",
       "date_end": "2026-08-21",
       "location": {
         "club": "SEVRIER TC",
-        "venue": "74320 SEVRIER",
-        "address": "26, route du Port",
-        "postal_code": "74320",
         "city": "SEVRIER"
       },
       "distance": "45,4 km",
-      "first_seen": "2026-05-21T02:57:28+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
     },
     {
-      "id": "211089",
-      "code": "20275074061600211089",
+      "id": "MOJA_211089",
       "name": "TMC balles oranges 7/9 ans",
       "date_start": "2026-09-27",
       "date_end": "2026-09-27",
       "location": {
         "club": "TENNIS CLUB DES BRASSES",
-        "venue": "74250_VIUZ EN SALLAZ",
-        "address": "161 rte de Boisinges",
-        "postal_code": "74250",
         "city": "VIUZ EN SALLAZ"
       },
       "distance": "28,2 km",
-      "first_seen": "2026-06-28T02:59:40+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
     },
     {
-      "id": "208985",
-      "code": "20275074006400208985",
+      "id": "MOJA_208985",
       "name": "TMC vert TC Rumilly",
       "date_start": "2026-10-07",
       "date_end": "2026-10-07",
       "location": {
         "club": "RUMILLY TC",
-        "venue": "TENNIS CLUB",
-        "address": "impasse des tennis",
-        "postal_code": "74150",
         "city": "RUMILLY"
       },
       "distance": "46,3 km",
-      "first_seen": "2026-07-08T02:40:27+02:00"
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_208986",
+      "name": "TMC orange TC Rumilly",
+      "date_start": "2026-10-14",
+      "date_end": "2026-10-14",
+      "location": {
+        "club": "RUMILLY TC",
+        "city": "RUMILLY"
+      },
+      "distance": "46,3 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_210849",
+      "name": "TMC GALAXIE ORANGE ARA MT 7/10ans",
+      "date_start": "2026-10-18",
+      "date_end": "2026-10-18",
+      "location": {
+        "club": "VALLEIRY TENNIS CLUB",
+        "city": "VALLEIRY"
+      },
+      "distance": "19,6 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_208593",
+      "name": "TOURNOI ORANGE ANNECY",
+      "date_start": "2026-10-19",
+      "date_end": "2026-10-20",
+      "location": {
+        "club": "ANNECY TENNIS",
+        "city": "ANNECY"
+      },
+      "distance": "38,4 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_210314",
+      "name": "TMC ORANGE ALLINGES",
+      "date_start": "2026-10-20",
+      "date_end": "2026-10-20",
+      "location": {
+        "club": "ALLINGES TC",
+        "city": "ALLINGES"
+      },
+      "distance": "31,8 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_208594",
+      "name": "TOURNOI VERT ANNECY",
+      "date_start": "2026-10-21",
+      "date_end": "2026-10-22",
+      "location": {
+        "club": "ANNECY TENNIS",
+        "city": "ANNECY"
+      },
+      "distance": "38,4 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_210313",
+      "name": "TMC VERT NIVEAU REGIONAL NC-30/2",
+      "date_start": "2026-10-21",
+      "date_end": "2026-10-21",
+      "location": {
+        "club": "ALLINGES TC",
+        "city": "ALLINGES"
+      },
+      "distance": "31,8 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_209300",
+      "name": "TMC U10 Orange toussaint Sevrier",
+      "date_start": "2026-10-27",
+      "date_end": "2026-10-27",
+      "location": {
+        "club": "SEVRIER TC",
+        "city": "SEVRIER"
+      },
+      "distance": "45,4 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_209304",
+      "name": "TMC U10 Vert Toussaint Sevrier",
+      "date_start": "2026-10-29",
+      "date_end": "2026-10-30",
+      "location": {
+        "club": "SEVRIER TC",
+        "city": "SEVRIER"
+      },
+      "distance": "45,4 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
+    },
+    {
+      "id": "MOJA_210850",
+      "name": "TMC GALAXIE VERT ARA MT 7/10ans",
+      "date_start": "2026-11-01",
+      "date_end": "2026-11-01",
+      "location": {
+        "club": "VALLEIRY TENNIS CLUB",
+        "city": "VALLEIRY"
+      },
+      "distance": "19,6 km",
+      "first_seen": "2026-08-06T16:43:58+02:00"
     }
   ]
 }

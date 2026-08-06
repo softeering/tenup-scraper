@@ -1,11 +1,20 @@
 """Scrape TenUp (FFT) for tennis tournaments around a city.
 
-The TenUp ``/system/ajax`` endpoint is gated by Queue-it bot protection
-and requires a ``form_build_id`` token that is rendered into the search
-page. Rather than replay that flow with ``requests``, we drive a real
-(headless) Chromium instance via Playwright: it naturally clears the
-Queue-it challenge, gives us the token, and lets us POST the form from
-the same browser context.
+TenUp was rebuilt as a Nuxt/Vue single-page app. It talks to a public
+JSON backend that is *not* behind Queue-it bot protection, so a plain
+``requests`` session is enough — no browser automation required.
+
+Two endpoints are involved:
+
+``GET /back/public/v1/autocompletion/villes?recherche=<name>``
+    Geocodes a city name to a ``{ville, codePostal, latitude,
+    longitude, ...}`` record (same data the site's autocomplete box
+    shows).
+
+``POST /back/public/v1/tournois``
+    Searches tournaments around a ``lat``/``lng`` point within a
+    ``distance`` (km), date range, and (optionally) a list of
+    ``categoriesAge`` ids. Returns ``{nbResultats, cards: [...]}``.
 """
 
 from __future__ import annotations
@@ -17,10 +26,10 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from playwright.sync_api import sync_playwright
+import requests
 
-SEARCH_URL = "https://tenup.fft.fr/recherche/tournois"
-AJAX_PATH = "/system/ajax"
+AUTOCOMPLETE_URL = "https://tenup.fft.fr/back/public/v1/autocompletion/villes"
+SEARCH_URL = "https://tenup.fft.fr/back/public/v1/tournois"
 
 YOUTH_BUNDLE_AGE_IDS = "70|80|96|97|98|90|95|65|99|100"
 
@@ -31,43 +40,43 @@ PAGE_PATH = REPO_ROOT / "docs" / "index.md"
 NEW_WINDOW = timedelta(hours=48)
 LOCAL_TZ = ZoneInfo("Europe/Paris")
 
-COLLECT_FORM_JS = """
-() => {
-    const form = document.querySelector('#recherche-tournois-form');
-    if (!form) return null;
-    const pairs = [];
-    for (const el of form.querySelectorAll('input, select, textarea')) {
-        if (!el.name) continue;
-        if ((el.type === 'checkbox' || el.type === 'radio') && !el.checked) continue;
-        if (el.type === 'submit' || el.type === 'button') continue;
-        pairs.push([el.name, el.value ?? '']);
-    }
-    return pairs;
-}
-"""
+REQUEST_TIMEOUT = 30
 
-FETCH_JS = """
-async ({ pairs, overrides }) => {
-    const params = new URLSearchParams();
-    for (const [k, v] of pairs) params.append(k, v);
-    for (const [k, v] of Object.entries(overrides)) {
-        params.delete(k);
-        params.append(k, v);
-    }
-    params.append('_triggering_element_name', 'submit_main');
-    params.append('_triggering_element_value', 'Rechercher');
-    const r = await fetch('%s', {
-        method: 'POST',
-        headers: {
-            'accept': 'application/json, text/javascript, */*; q=0.01',
-            'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            'x-requested-with': 'XMLHttpRequest',
-        },
-        body: params.toString(),
-    });
-    return { status: r.status, body: await r.text() };
-}
-""" % AJAX_PATH
+
+def geocode_city(city: str, *, session: requests.Session | None = None) -> dict:
+    """Resolve a city label to TenUp's autocomplete record (lat/lng included).
+
+    Args:
+        city: City label, e.g. ``"Prévessin-Moëns, 01280"``. The part
+            before the first comma is used as the search term; if a
+            postal code follows, it is used to disambiguate between
+            several same-named towns.
+    """
+    session = session or requests.Session()
+    name, _, postal_code = city.partition(",")
+    name = name.strip()
+    postal_code = postal_code.strip()
+
+    resp = session.get(
+        AUTOCOMPLETE_URL,
+        params={"recherche": name},
+        headers={"accept": "application/json"},
+        timeout=REQUEST_TIMEOUT,
+    )
+    resp.raise_for_status()
+    candidates = resp.json()
+    if not candidates:
+        raise RuntimeError(
+            f"Autocomplete returned no suggestion for city {city!r}. "
+            "Try a shorter/exact municipal name."
+        )
+
+    if postal_code:
+        for candidate in candidates:
+            if candidate.get("codePostal") == postal_code:
+                return candidate
+
+    return candidates[0]
 
 
 def fetch_tournaments(
@@ -76,175 +85,78 @@ def fetch_tournaments(
     age_ids: str = YOUTH_BUNDLE_AGE_IDS,
     start: date | None = None,
     end: date | None = None,
-    headless: bool = True,
     debug: bool = False,
-) -> list[dict]:
-    """Query TenUp and return the raw Drupal AJAX command array.
+    **_ignored,
+) -> dict:
+    """Query the TenUp tournament-search API and return the raw JSON payload.
 
-    The returned payload is the list of Drupal AJAX commands the site
-    itself would apply to the DOM. Feed it to :func:`parse_tournaments`
-    to get a flat list of tournament records.
-
-    Note: the ``categorie_age`` form field is a single checkbox whose
-    value is the whole pipe-joined youth bundle. Sending a different
-    subset (e.g. ``"65"`` on its own) silently matches no id on the
-    server and the query returns zero results. Keep the default, then
-    narrow client-side via :func:`parse_tournaments(..., age_id=...)`.
+    Feed the result to :func:`parse_tournaments` to get a flat list of
+    tournament records.
 
     Args:
         city: City label in the exact format the site expects,
             e.g. ``"Prévessin-Moëns, 01280"``.
         distance_km: Search radius around the city, in kilometres.
-        age_ids: Pipe-separated TenUp age-category IDs. Must be a value
-            the form actually offers — currently only the full youth
-            bundle ``YOUTH_BUNDLE_AGE_IDS``.
+        age_ids: Pipe-separated TenUp ``categorieAge.id`` values to
+            filter on server-side. Pass ``None``/``""`` to disable
+            filtering (search every age category).
         start: Start of the date range (defaults to today).
         end: End of the date range (defaults to 3 months after ``start``).
-        headless: Run Chromium headless (default). Set False to debug.
     """
     start = start or date.today()
     end = end or (start + timedelta(days=92))
 
-    overrides = {
-        "recherche_type": "ville",
-        "ville[autocomplete][country]": "fr",
-        "ville[distance][value_field]": str(distance_km),
+    session = requests.Session()
+    location = geocode_city(city, session=session)
+    if debug:
+        _debug_dump("geocoded city", location)
+
+    age_id_list = [int(x) for x in age_ids.split("|") if x.strip()] if age_ids else []
+
+    body = {
         "pratique": "TENNIS",
-        "date[start]": start.strftime("%d/%m/%y"),
-        "date[end]": end.strftime("%d/%m/%y"),
-        f"categorie_age[{age_ids}]": age_ids,
-        "page": "0",
-        "sort": "_DIST_",
+        "from": 0,
+        "size": 1000,
+        "lat": location["latitude"],
+        "lng": location["longitude"],
+        "distance": distance_km,
+        "type": [],
+        "codeClub": None,
+        "ligues": [],
+        "comites": [],
+        "dateDebut": datetime.combine(start, datetime.min.time()).isoformat() + "Z",
+        "dateFin": datetime.combine(end, datetime.min.time()).isoformat() + "Z",
+        "utiliserMesDonnees": False,
+        "naturesEpreuves": [],
+        "typesEpreuves": [],
+        "naturesTerrains": [],
+        "categoriesJeu": [],
+        "categoriesAge": age_id_list,
+        "familles": [],
+        "tournoiInterne": False,
+        "classements": [],
+        "inscriptionEnLigne": None,
+        "paiementEnLigne": None,
+        "filtres": True,
+        "sort": "DISTANCE",
     }
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless)
-        try:
-            ctx = browser.new_context()
-            page = ctx.new_page()
-            page.goto(SEARCH_URL, wait_until="domcontentloaded", timeout=60_000)
-            page.wait_for_url(f"{SEARCH_URL}**", timeout=60_000)
-            page.wait_for_load_state("networkidle", timeout=60_000)
-
-            _dismiss_privacy_overlay(page)
-            _select_city(page, city, debug=debug)
-
-            pairs = page.evaluate(COLLECT_FORM_JS)
-            if not pairs:
-                raise RuntimeError(
-                    "Could not locate #recherche-tournois-form on the search page."
-                )
-
-            if debug:
-                _debug_dump("outgoing form pairs", pairs)
-                _debug_dump("overrides", list(overrides.items()))
-
-            result = page.evaluate(
-                FETCH_JS, {"pairs": pairs, "overrides": overrides}
-            )
-        finally:
-            browser.close()
-
-    if result["status"] != 200:
-        raise RuntimeError(f"TenUp returned HTTP {result['status']}")
-
-    payload = json.loads(result["body"])
     if debug:
-        _debug_dump("AJAX response", payload)
-    return payload
+        _debug_dump("outgoing search body", body)
 
-
-def _dismiss_privacy_overlay(page) -> None:
-    """Hide the TagCommander privacy overlay if it is blocking clicks.
-
-    The consent banner injects ``#privacy-overlay`` which covers the
-    whole page and intercepts pointer events. We don't need to "accept"
-    anything to submit the search — nuking the overlay is enough and
-    leaves cookies at their default state.
-    """
-    page.evaluate(
-        """() => {
-            for (const sel of [
-                '#privacy-overlay',
-                '.tc-privacy-overlay',
-                '#tc-privacy-wrapper',
-                '.tc-privacy-wrapper',
-                '#tc-privacy-center-wrapper',
-            ]) {
-                for (const el of document.querySelectorAll(sel)) el.remove();
-            }
-            document.documentElement.style.overflow = '';
-            document.body.style.overflow = '';
-        }"""
+    resp = session.post(
+        SEARCH_URL,
+        json=body,
+        headers={"accept": "application/json"},
+        timeout=REQUEST_TIMEOUT,
     )
+    if resp.status_code != 200:
+        raise RuntimeError(f"TenUp returned HTTP {resp.status_code}: {resp.text[:500]}")
 
-
-def _select_city(page, city: str, *, debug: bool = False) -> None:
-    """Type into the city autocomplete and pick the first suggestion.
-
-    The TenUp form only runs a geo-anchored search when the hidden
-    ``value_field`` (and, when available, ``lat_field``/``lng_field``)
-    siblings get populated — which only happens when a suggestion is
-    selected via the jQuery UI autocomplete's ``select`` event. That
-    event is fired reliably by keyboard navigation (ArrowDown → Enter)
-    but sometimes not by a plain ``<li>`` click, so we use the keyboard.
-    """
-    search_term = city.split(",", 1)[0].strip()
-    input_sel = "#autocomplete-custom-input"
-    input_loc = page.locator(input_sel)
-    input_loc.wait_for(state="visible", timeout=10_000)
-    input_loc.focus()
-    input_loc.fill("")
-    input_loc.type(search_term, delay=40)
-
-    suggestion = page.locator("ul.ui-autocomplete li.ui-menu-item").first
-    try:
-        suggestion.wait_for(state="visible", timeout=10_000)
-    except Exception as exc:
-        if debug:
-            print(
-                f"[debug] no autocomplete suggestion for {search_term!r}: {exc}",
-                file=sys.stderr,
-            )
-        raise RuntimeError(
-            f"Autocomplete returned no suggestion for city {city!r}. "
-            "Try a shorter/exact municipal name."
-        )
-
-    input_loc.press("ArrowDown")
-    input_loc.press("Enter")
-
-    try:
-        page.wait_for_function(
-            """() => {
-                const v = document.querySelector(
-                    'input[name=\"ville[autocomplete][value_container][value_field]\"]'
-                );
-                return v && v.value && v.value.length > 0;
-            }""",
-            timeout=10_000,
-        )
-    except Exception:
-        if debug:
-            state = page.evaluate(
-                """() => {
-                    const names = [
-                        'ville[autocomplete][textfield]',
-                        'ville[autocomplete][value_container][value_field]',
-                        'ville[autocomplete][value_container][label_field]',
-                        'ville[autocomplete][value_container][lat_field]',
-                        'ville[autocomplete][value_container][lng_field]',
-                    ];
-                    const out = {};
-                    for (const n of names) {
-                        const el = document.querySelector(`input[name=\"${n}\"]`);
-                        out[n] = el ? el.value : null;
-                    }
-                    return out;
-                }"""
-            )
-            _debug_dump("ville inputs after select", state)
-        raise
+    payload = resp.json()
+    if debug:
+        _debug_dump("search response", payload)
+    return payload
 
 
 def _debug_dump(label: str, obj) -> None:
@@ -252,74 +164,39 @@ def _debug_dump(label: str, obj) -> None:
     print(json.dumps(obj, indent=2, ensure_ascii=False), file=sys.stderr)
 
 
-def parse_tournaments(
-    payload: list[dict], age_id: str | None = YOUTH_BUNDLE_AGE_IDS
-) -> list[dict]:
-    """Extract a flat list of tournament summaries from the AJAX payload.
+def parse_tournaments(payload: dict, age_id: str | None = None) -> list[dict]:
+    """Extract a flat list of tournament summaries from the search response.
 
-    Each returned record contains the natural compound key (``code`` —
-    millésime + codeClub + zero-padded id — plus ``id`` on its own),
-    the tournament name, start/end dates (ISO), and a location block.
+    Each returned record uses the tournament's ``idHomologation`` (e.g.
+    ``"MOJA_208847"``) as its natural unique key, the tournament name,
+    start/end dates (ISO), and a location block.
 
     Args:
-        payload: The Drupal AJAX command array returned by
-            :func:`fetch_tournaments`.
-        age_id: Pipe-separated TenUp ``categorieAge.id`` values to keep.
-            Tournaments that expose an ``epreuve`` matching any of these
-            ids are kept. Defaults to the full youth bundle
-            (``YOUTH_BUNDLE_AGE_IDS``). Pass ``None`` to disable filtering.
+        payload: The JSON body returned by :func:`fetch_tournaments`
+            (``{"nbResultats": int, "cards": [...]}``).
+        age_id: Unused — kept for backward-compatible call sites. Age
+            filtering now happens server-side via the ``categoriesAge``
+            field in the search request (see :func:`fetch_tournaments`).
     """
-    allowed_ids: set[int] | None
-    if age_id is None:
-        allowed_ids = None
-    else:
-        allowed_ids = {int(x) for x in age_id.split("|") if x.strip()}
-
-    items: list[dict] = []
-    for entry in payload:
-        if entry.get("command") == "recherche_tournois_update":
-            items = entry.get("results", {}).get("items", []) or []
-            break
-        if (
-            entry.get("command") == "insert"
-            and entry.get("selector") == "#form-tournois-errors"
-            and entry.get("data")
-        ):
-            raise RuntimeError(
-                f"TenUp rejected the search: {entry['data']}"
-            )
+    cards = payload.get("cards") or []
 
     out = []
-    for item in items:
-        if allowed_ids is not None and not _has_any_age(item, allowed_ids):
-            continue
-        installation = item.get("installation") or {}
+    for card in cards:
+        club = card.get("club") or {}
         out.append(
             {
-                "id": item.get("id"),
-                "code": item.get("code"),
-                "name": item.get("libelle"),
-                "date_start": _iso_date(item.get("dateDebut")),
-                "date_end": _iso_date(item.get("dateFin")),
+                "id": card.get("idHomologation"),
+                "name": card.get("libelleTournoi"),
+                "date_start": _iso_date(card.get("dateDebut")),
+                "date_end": _iso_date(card.get("dateFin")),
                 "location": {
-                    "club": item.get("nomClub"),
-                    "venue": installation.get("nom"),
-                    "address": installation.get("adresse2"),
-                    "postal_code": installation.get("codePostal"),
-                    "city": installation.get("ville"),
+                    "club": club.get("libelle"),
+                    "city": card.get("ville"),
                 },
-                "distance": item.get("distanceEnMetres"),
+                "distance": _format_distance(card.get("distance")),
             }
         )
     return out
-
-
-def _has_any_age(item: dict, age_ids: set[int]) -> bool:
-    for epreuve in item.get("epreuves") or []:
-        cat = (epreuve.get("categorieAge") or {}).get("id")
-        if cat in age_ids:
-            return True
-    return False
 
 
 def _iso_date(value: dict | str | None) -> str | None:
@@ -329,6 +206,14 @@ def _iso_date(value: dict | str | None) -> str | None:
         return value[:10]
     raw = value.get("date")
     return raw[:10] if raw else None
+
+
+def _format_distance(meters: float | int | None) -> str | None:
+    """Format a distance in meters as a French-style km string (``"43,1 km"``)."""
+    if meters is None:
+        return None
+    km = round(meters / 1000, 1)
+    return f"{km:.1f}".replace(".", ",") + " km"
 
 
 def load_store(path: Path = STORE_PATH) -> dict:
@@ -540,22 +425,17 @@ def main() -> None:
         type=str,
         default=YOUTH_BUNDLE_AGE_IDS,
         help=(
-            "Pipe-separated TenUp categorieAge.id values to keep "
-            "(client-side filter). Default is the full youth bundle. "
-            "Pass an empty string to disable filtering."
+            "Pipe-separated TenUp categorieAge.id values to filter on "
+            "(applied server-side in the search request). Default is "
+            "the full youth bundle. Pass an empty string to disable "
+            "filtering (search every age category)."
         ),
-    )
-    parser.add_argument(
-        "--headed",
-        default=False,
-        action="store_true",
-        help="Run Chromium in headed mode (for debugging)",
     )
     parser.add_argument(
         "--debug",
         default=False,
         action="store_true",
-        help="Dump form pairs and raw AJAX response to stderr",
+        help="Dump the geocoded city, outgoing search body, and raw response to stderr",
     )
     parser.add_argument(
         "--print-only",
@@ -568,12 +448,10 @@ def main() -> None:
     payload = fetch_tournaments(
         args.city,
         args.distance,
-        headless=not args.headed,
+        age_ids=args.age_id or None,
         debug=args.debug,
     )
-    tournaments = parse_tournaments(
-        payload, age_id=args.age_id or None
-    )
+    tournaments = parse_tournaments(payload)
 
     if args.print_only:
         print(json.dumps(tournaments, indent=2, ensure_ascii=False))
