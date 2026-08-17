@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-08-17T23:09:20+02:00",
-    "tournament_count": 17,
+    "last_scrape": "2026-08-18T00:07:40+02:00",
+    "tournament_count": 16,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -9,18 +9,6 @@
     }
   },
   "tournaments": [
-    {
-      "id": "MOJA_216310",
-      "name": "TMC orange",
-      "date_start": "2026-08-17",
-      "date_end": "2026-08-17",
-      "location": {
-        "club": "RUMILLY TC",
-        "city": "RUMILLY"
-      },
-      "distance": "46,3 km",
-      "first_seen": "2026-08-06T16:43:58+02:00"
-    },
     {
       "id": "MOJA_189048",
       "name": "TMC U10 Orange Sevrier",

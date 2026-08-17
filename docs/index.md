@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (17)
+# Tournois de tennis à venir (16)
 
-_Dernière mise à jour : 2026-08-17T23:09:20+02:00_  
+_Dernière mise à jour : 2026-08-18T00:07:40+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-08-17</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_216310" target="_blank" rel="noopener noreferrer">TMC orange</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-08-18</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_189048" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-08-18</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_216311" target="_blank" rel="noopener noreferrer">TMC Vert</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-08-20 → 2026-08-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_189049" target="_blank" rel="noopener noreferrer">TMC U10 Vert Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
