@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (16)
 
-_Dernière mise à jour : 2026-09-13T13:11:23+02:00_  
+_Dernière mise à jour : 2026-09-13T14:20:32+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -19,9 +19,9 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210314" target="_blank" rel="noopener noreferrer">TMC ORANGE ALLINGES</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
     <tr><td>2026-10-21 → 2026-10-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208594" target="_blank" rel="noopener noreferrer">TOURNOI VERT ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
     <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210313" target="_blank" rel="noopener noreferrer">TMC VERT NIVEAU REGIONAL NC-30/2</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
-    <tr class="is-new"><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304211" target="_blank" rel="noopener noreferrer">TMC U10 orange</a> <span class="new-badge">NEW</span></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
+    <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304211" target="_blank" rel="noopener noreferrer">TMC U10 orange</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
     <tr><td>2026-10-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209300" target="_blank" rel="noopener noreferrer">TMC U10 Orange toussaint Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
-    <tr class="is-new"><td>2026-10-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304233" target="_blank" rel="noopener noreferrer">TMC U10 ORANGE</a> <span class="new-badge">NEW</span></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
+    <tr><td>2026-10-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304233" target="_blank" rel="noopener noreferrer">TMC U10 ORANGE</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
     <tr><td>2026-10-29 → 2026-10-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209304" target="_blank" rel="noopener noreferrer">TMC U10 Vert Toussaint Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210850" target="_blank" rel="noopener noreferrer">TMC GALAXIE VERT ARA MT 7/10ans</a></td><td>VALLEIRY TENNIS CLUB</td><td>VALLEIRY</td><td>19,6 km</td></tr>
     <tr><td>2026-11-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_288979" target="_blank" rel="noopener noreferrer">TMC U10 orange</a></td><td>LA ROCHE SUR FORON TC</td><td>LA ROCHE SUR FORON</td><td>28,2 km</td></tr>
