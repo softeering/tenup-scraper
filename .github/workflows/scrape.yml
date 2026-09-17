@@ -2,7 +2,7 @@ name: Scrape TenUp
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0/4 * * *"
   workflow_dispatch:
 
 concurrency:
