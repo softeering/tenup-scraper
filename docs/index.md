@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (21)
+# Tournois de tennis à venir (22)
 
-_Dernière mise à jour : 2026-09-20T22:02:11+02:00_  
+_Dernière mise à jour : 2026-09-21T02:05:51+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -31,5 +31,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-11-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_288979" target="_blank" rel="noopener noreferrer">TMC U10 orange</a></td><td>LA ROCHE SUR FORON TC</td><td>LA ROCHE SUR FORON</td><td>28,2 km</td></tr>
     <tr><td>2026-11-08</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_288982" target="_blank" rel="noopener noreferrer">TMC U10 vert</a></td><td>LA ROCHE SUR FORON TC</td><td>LA ROCHE SUR FORON</td><td>28,2 km</td></tr>
     <tr><td>2026-11-15</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303137" target="_blank" rel="noopener noreferrer">Galaxie  orange</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
+    <tr class="is-new"><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210322" target="_blank" rel="noopener noreferrer">TMC VERT 8 JOUEURS</a> <span class="new-badge">NEW</span></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
   </tbody>
 </table>
