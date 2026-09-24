@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (23)
 
-_Dernière mise à jour : 2026-09-24T18:02:41+02:00_  
+_Dernière mise à jour : 2026-09-24T22:02:38+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -21,7 +21,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210313" target="_blank" rel="noopener noreferrer">TMC VERT NIVEAU REGIONAL NC-30/2</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
     <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_302821" target="_blank" rel="noopener noreferrer">TMC Orange Montréal la Cluse</a></td><td>MONTREAL LA CLUSE (AS)</td><td>MONTREAL LA CLUSE</td><td>40,5 km</td></tr>
     <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304211" target="_blank" rel="noopener noreferrer">TMC U10 orange</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
-    <tr class="is-new"><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_307108" target="_blank" rel="noopener noreferrer">TMC Vert 9/10 ans</a> <span class="new-badge">NEW</span></td><td>HAUT JURA T.C.</td><td>Les Rousses</td><td>24,5 km</td></tr>
+    <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_307108" target="_blank" rel="noopener noreferrer">TMC Vert 9/10 ans</a></td><td>HAUT JURA T.C.</td><td>Les Rousses</td><td>24,5 km</td></tr>
     <tr><td>2026-10-25</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303135" target="_blank" rel="noopener noreferrer">Plateau  orange</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr><td>2026-10-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209300" target="_blank" rel="noopener noreferrer">TMC U10 Orange toussaint Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-10-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304233" target="_blank" rel="noopener noreferrer">TMC U10 ORANGE</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
