@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (41)
 
-_Dernière mise à jour : 2026-10-04T22:40:47+02:00_  
+_Dernière mise à jour : 2026-10-05T02:06:51+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -49,7 +49,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210322" target="_blank" rel="noopener noreferrer">TMC VERT 8 JOUEURS</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
     <tr><td>2026-12-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208508" target="_blank" rel="noopener noreferrer">TMC VERT MIXTE 8-12 ANS ATP-M</a></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
     <tr><td>2026-12-22 → 2027-01-02</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211231" target="_blank" rel="noopener noreferrer">Tournoi jeunes indoor</a></td><td>PRINGY TC</td><td>ANNECY</td><td>35,8 km</td></tr>
-    <tr class="is-new"><td>2027-01-02</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211184" target="_blank" rel="noopener noreferrer">Sport 2000 Chablais Tour Orange</a> <span class="new-badge">NEW</span></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
+    <tr><td>2027-01-02</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211184" target="_blank" rel="noopener noreferrer">Sport 2000 Chablais Tour Orange</a></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
     <tr class="is-new"><td>2027-01-03</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211186" target="_blank" rel="noopener noreferrer">Sport 2000 Chablais Tour Vert U10</a> <span class="new-badge">NEW</span></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
   </tbody>
 </table>
