@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (48)
+# Tournois de tennis à venir (49)
 
-_Dernière mise à jour : 2026-10-06T10:03:31+02:00_  
+_Dernière mise à jour : 2026-10-06T14:04:15+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -13,6 +13,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-10-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208985" target="_blank" rel="noopener noreferrer">TMC vert TC Rumilly</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-10-10 → 2026-10-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_221397" target="_blank" rel="noopener noreferrer">Tournoi Jeunes Toussaint TCAV</a></td><td>ANNECY LE VIEUX TC</td><td>ANNECY LE VIEUX</td><td>40,1 km</td></tr>
     <tr class="is-new"><td>2026-10-10</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_312717" target="_blank" rel="noopener noreferrer">ARA Match Tour Vallée du Giffre Vert</a> <span class="new-badge">NEW</span></td><td>MIEUSSY TC</td><td>MIEUSSY</td><td>36,8 km</td></tr>
+    <tr class="is-new"><td>2026-10-10</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_312811" target="_blank" rel="noopener noreferrer">74 Match Tour Vallée du Giffre Vert</a> <span class="new-badge">NEW</span></td><td>MIEUSSY TC</td><td>MIEUSSY</td><td>36,8 km</td></tr>
     <tr><td>2026-10-14</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208986" target="_blank" rel="noopener noreferrer">TMC orange TC Rumilly</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-10-17</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211125" target="_blank" rel="noopener noreferrer">TMC Garçons 11-14 (NC &gt; 30/1)</a></td><td>EVIAN TC</td><td>EVIAN LES BAINS</td><td>41,8 km</td></tr>
     <tr><td>2026-10-18</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210849" target="_blank" rel="noopener noreferrer">TMC GALAXIE ORANGE ARA MT 7/10ans</a></td><td>VALLEIRY TENNIS CLUB</td><td>VALLEIRY</td><td>19,6 km</td></tr>
