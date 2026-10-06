@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-10-05T18:02:44+02:00",
-    "tournament_count": 41,
+    "last_scrape": "2026-10-06T02:06:13+02:00",
+    "tournament_count": 48,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -32,6 +32,18 @@
       },
       "distance": "40,1 km",
       "first_seen": "2026-09-27T20:16:55+02:00"
+    },
+    {
+      "id": "MOJA_312717",
+      "name": "ARA Match Tour Vallée du Giffre Vert",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "location": {
+        "club": "MIEUSSY TC",
+        "city": "MIEUSSY"
+      },
+      "distance": "36,8 km",
+      "first_seen": "2026-10-06T02:06:13+02:00"
     },
     {
       "id": "MOJA_208986",
@@ -130,6 +142,18 @@
       "first_seen": "2026-09-27T20:16:55+02:00"
     },
     {
+      "id": "MOJA_311160",
+      "name": "TMC U12 vert garçons",
+      "date_start": "2026-10-20",
+      "date_end": "2026-10-20",
+      "location": {
+        "club": "SCIEZ SUR LEMAN TC",
+        "city": "SCIEZ"
+      },
+      "distance": "23,4 km",
+      "first_seen": "2026-10-06T02:06:13+02:00"
+    },
+    {
       "id": "MOJA_208594",
       "name": "TOURNOI VERT ANNECY",
       "date_start": "2026-10-21",
@@ -178,6 +202,18 @@
       "first_seen": "2026-09-11T13:13:47+02:00"
     },
     {
+      "id": "MOJA_308758",
+      "name": "TMC SIMPLE MIXTE D'AUTOMNE TCF",
+      "date_start": "2026-10-21",
+      "date_end": "2026-10-21",
+      "location": {
+        "club": "TC DU FAUCIGNY",
+        "city": "BONNEVILLE"
+      },
+      "distance": "31,6 km",
+      "first_seen": "2026-10-06T02:06:13+02:00"
+    },
+    {
       "id": "MOJA_210565",
       "name": "TMC vert 9/14 ans ",
       "date_start": "2026-10-22",
@@ -212,6 +248,18 @@
       },
       "distance": "31,6 km",
       "first_seen": "2026-09-27T20:16:55+02:00"
+    },
+    {
+      "id": "MOJA_306841",
+      "name": "TMC DOUVAINE  U10 Vert",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-24",
+      "location": {
+        "club": "DOUVAINE TC",
+        "city": "DOUVAINE"
+      },
+      "distance": "17,6 km",
+      "first_seen": "2026-10-06T02:06:13+02:00"
     },
     {
       "id": "MOJA_307108",
@@ -334,6 +382,18 @@
       "first_seen": "2026-09-27T20:16:55+02:00"
     },
     {
+      "id": "MOJA_308760",
+      "name": "TMC GARCONS 11 ANS ",
+      "date_start": "2026-10-30",
+      "date_end": "2026-10-30",
+      "location": {
+        "club": "TC DU FAUCIGNY",
+        "city": "BONNEVILLE"
+      },
+      "distance": "31,6 km",
+      "first_seen": "2026-10-06T02:06:13+02:00"
+    },
+    {
       "id": "MOJA_301435",
       "name": "Circuit Galaxie Tennis U10 Orange Ferney Voltaire",
       "date_start": "2026-10-31",
@@ -454,6 +514,18 @@
       "first_seen": "2026-09-21T02:05:51+02:00"
     },
     {
+      "id": "MOJA_306689",
+      "name": "Tmc orange u 10",
+      "date_start": "2026-12-21",
+      "date_end": "2026-12-21",
+      "location": {
+        "club": "DOUVAINE TC",
+        "city": "DOUVAINE"
+      },
+      "distance": "17,6 km",
+      "first_seen": "2026-10-06T02:06:13+02:00"
+    },
+    {
       "id": "MOJA_208508",
       "name": "TMC VERT MIXTE 8-12 ANS ATP-M",
       "date_start": "2026-12-22",
@@ -476,6 +548,18 @@
       },
       "distance": "35,8 km",
       "first_seen": "2026-09-27T20:16:55+02:00"
+    },
+    {
+      "id": "MOJA_306696",
+      "name": "Tmc Douvaine vert U10",
+      "date_start": "2026-12-22",
+      "date_end": "2026-12-22",
+      "location": {
+        "club": "DOUVAINE TC",
+        "city": "DOUVAINE"
+      },
+      "distance": "17,6 km",
+      "first_seen": "2026-10-06T02:06:13+02:00"
     },
     {
       "id": "MOJA_211184",
