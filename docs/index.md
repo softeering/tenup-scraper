@@ -4,13 +4,12 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (49)
 
-_Dernière mise à jour : 2026-10-07T22:02:50+02:00_  
+_Dernière mise à jour : 2026-10-08T02:06:05+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208985" target="_blank" rel="noopener noreferrer">TMC vert TC Rumilly</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-10-10 → 2026-10-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_221397" target="_blank" rel="noopener noreferrer">Tournoi Jeunes Toussaint TCAV</a></td><td>ANNECY LE VIEUX TC</td><td>ANNECY LE VIEUX</td><td>40,1 km</td></tr>
     <tr class="is-new"><td>2026-10-10</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_312717" target="_blank" rel="noopener noreferrer">ARA Match Tour Vallée du Giffre Vert</a> <span class="new-badge">NEW</span></td><td>MIEUSSY TC</td><td>MIEUSSY</td><td>36,8 km</td></tr>
     <tr class="is-new"><td>2026-10-10</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_312811" target="_blank" rel="noopener noreferrer">74 Match Tour Vallée du Giffre Vert</a> <span class="new-badge">NEW</span></td><td>MIEUSSY TC</td><td>MIEUSSY</td><td>36,8 km</td></tr>
@@ -31,6 +30,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-10-22 → 2026-10-23</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210565" target="_blank" rel="noopener noreferrer">TMC vert 9/14 ans</a></td><td>T.C. THORENS</td><td>THORENS GLIERES</td><td>32,7 km</td></tr>
     <tr><td>2026-10-24 → 2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209257" target="_blank" rel="noopener noreferrer">Tournoi Jeunes Toussaint CSTC</a></td><td>CLUSES-SCIONZIER TC</td><td>CLUSES</td><td>43,2 km</td></tr>
     <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210613" target="_blank" rel="noopener noreferrer">TMC 11-12ans balle dur</a></td><td>ST PIERRE EN FAUCIGNY TC</td><td>ST PIERRE EN FAUCIGNY</td><td>31,6 km</td></tr>
+    <tr class="is-new"><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306840" target="_blank" rel="noopener noreferrer">TMC DOUVAINE U10 Orange</a> <span class="new-badge">NEW</span></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
     <tr class="is-new"><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306841" target="_blank" rel="noopener noreferrer">TMC DOUVAINE  U10 Vert</a> <span class="new-badge">NEW</span></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
     <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_307108" target="_blank" rel="noopener noreferrer">TMC Vert 9/10 ans</a></td><td>HAUT JURA T.C.</td><td>Les Rousses</td><td>24,5 km</td></tr>
     <tr><td>2026-10-25</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303135" target="_blank" rel="noopener noreferrer">Plateau  orange</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
