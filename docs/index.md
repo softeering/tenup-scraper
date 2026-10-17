@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (45)
+# Tournois de tennis à venir (46)
 
-_Dernière mise à jour : 2026-10-16T22:02:03+02:00_  
+_Dernière mise à jour : 2026-10-17T02:05:41+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -55,5 +55,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-12-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306696" target="_blank" rel="noopener noreferrer">Tmc Douvaine vert U10</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
     <tr><td>2027-01-02</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211184" target="_blank" rel="noopener noreferrer">Sport 2000 Chablais Tour Orange</a></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
     <tr><td>2027-01-03</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211186" target="_blank" rel="noopener noreferrer">Sport 2000 Chablais Tour Vert U10</a></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
+    <tr class="is-new"><td>2027-01-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306781" target="_blank" rel="noopener noreferrer">tournoi orange</a> <span class="new-badge">NEW</span></td><td>VALSERHONE TENNIS PADEL</td><td>BELLEGARDE SUR VALSERINE</td><td>27,3 km</td></tr>
   </tbody>
 </table>
