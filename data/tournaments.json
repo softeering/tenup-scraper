@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-10-17T22:02:37+02:00",
-    "tournament_count": 46,
+    "last_scrape": "2026-10-18T02:06:05+02:00",
+    "tournament_count": 45,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -9,18 +9,6 @@
     }
   },
   "tournaments": [
-    {
-      "id": "MOJA_211125",
-      "name": "TMC Garçons 11-14 (NC > 30/1)",
-      "date_start": "2026-10-17",
-      "date_end": "2026-10-17",
-      "location": {
-        "club": "EVIAN TC",
-        "city": "EVIAN LES BAINS"
-      },
-      "distance": "41,8 km",
-      "first_seen": "2026-09-27T20:16:55+02:00"
-    },
     {
       "id": "MOJA_210849",
       "name": "TMC GALAXIE ORANGE ARA MT 7/10ans",

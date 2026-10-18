@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (46)
+# Tournois de tennis à venir (45)
 
-_Dernière mise à jour : 2026-10-17T22:02:37+02:00_  
+_Dernière mise à jour : 2026-10-18T02:06:05+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-17</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211125" target="_blank" rel="noopener noreferrer">TMC Garçons 11-14 (NC &gt; 30/1)</a></td><td>EVIAN TC</td><td>EVIAN LES BAINS</td><td>41,8 km</td></tr>
     <tr><td>2026-10-18</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210849" target="_blank" rel="noopener noreferrer">TMC GALAXIE ORANGE ARA MT 7/10ans</a></td><td>VALLEIRY TENNIS CLUB</td><td>VALLEIRY</td><td>19,6 km</td></tr>
     <tr><td>2026-10-19 → 2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208593" target="_blank" rel="noopener noreferrer">TOURNOI ORANGE ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
     <tr><td>2026-10-19 → 2026-10-29</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210554" target="_blank" rel="noopener noreferrer">Tournoi jeunes 11/18 ans</a></td><td>MEYTHET TENNIS CLUB</td><td>MEYTHET</td><td>38,2 km</td></tr>
