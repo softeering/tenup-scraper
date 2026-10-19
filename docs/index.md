@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (45)
+# Tournois de tennis à venir (44)
 
-_Dernière mise à jour : 2026-10-18T22:02:35+02:00_  
+_Dernière mise à jour : 2026-10-19T02:06:10+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-18</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210849" target="_blank" rel="noopener noreferrer">TMC GALAXIE ORANGE ARA MT 7/10ans</a></td><td>VALLEIRY TENNIS CLUB</td><td>VALLEIRY</td><td>19,6 km</td></tr>
     <tr><td>2026-10-19 → 2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208593" target="_blank" rel="noopener noreferrer">TOURNOI ORANGE ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
     <tr><td>2026-10-19 → 2026-10-29</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210554" target="_blank" rel="noopener noreferrer">Tournoi jeunes 11/18 ans</a></td><td>MEYTHET TENNIS CLUB</td><td>MEYTHET</td><td>38,2 km</td></tr>
     <tr><td>2026-10-19 → 2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210561" target="_blank" rel="noopener noreferrer">TMC 11-14 ans NC-30/1</a></td><td>T.C. THORENS</td><td>THORENS GLIERES</td><td>32,7 km</td></tr>
@@ -54,6 +53,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-12-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306696" target="_blank" rel="noopener noreferrer">Tmc Douvaine vert U10</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
     <tr><td>2027-01-02</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211184" target="_blank" rel="noopener noreferrer">Sport 2000 Chablais Tour Orange</a></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
     <tr><td>2027-01-03</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211186" target="_blank" rel="noopener noreferrer">Sport 2000 Chablais Tour Vert U10</a></td><td>THONON LES BAINS TC</td><td>THONON LES BAINS</td><td>31,3 km</td></tr>
-    <tr class="is-new"><td>2027-01-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306781" target="_blank" rel="noopener noreferrer">tournoi orange</a> <span class="new-badge">NEW</span></td><td>VALSERHONE TENNIS PADEL</td><td>BELLEGARDE SUR VALSERINE</td><td>27,3 km</td></tr>
+    <tr><td>2027-01-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306781" target="_blank" rel="noopener noreferrer">tournoi orange</a></td><td>VALSERHONE TENNIS PADEL</td><td>BELLEGARDE SUR VALSERINE</td><td>27,3 km</td></tr>
   </tbody>
 </table>
