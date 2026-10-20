@@ -2,17 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (44)
+# Tournois de tennis à venir (41)
 
-_Dernière mise à jour : 2026-10-19T22:02:46+02:00_  
+_Dernière mise à jour : 2026-10-20T02:05:41+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-19 → 2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208593" target="_blank" rel="noopener noreferrer">TOURNOI ORANGE ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
-    <tr><td>2026-10-19 → 2026-10-29</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210554" target="_blank" rel="noopener noreferrer">Tournoi jeunes 11/18 ans</a></td><td>MEYTHET TENNIS CLUB</td><td>MEYTHET</td><td>38,2 km</td></tr>
-    <tr><td>2026-10-19 → 2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210561" target="_blank" rel="noopener noreferrer">TMC 11-14 ans NC-30/1</a></td><td>T.C. THORENS</td><td>THORENS GLIERES</td><td>32,7 km</td></tr>
     <tr><td>2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210314" target="_blank" rel="noopener noreferrer">TMC ORANGE ALLINGES</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
     <tr><td>2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304208" target="_blank" rel="noopener noreferrer">TMC U12 NC-30/1</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
     <tr><td>2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_311160" target="_blank" rel="noopener noreferrer">TMC U12 vert garçons</a></td><td>SCIEZ SUR LEMAN TC</td><td>SCIEZ</td><td>23,4 km</td></tr>
