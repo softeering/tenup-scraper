@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-10-20T22:02:12+02:00",
-    "tournament_count": 41,
+    "last_scrape": "2026-10-21T02:05:49+02:00",
+    "tournament_count": 38,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -9,42 +9,6 @@
     }
   },
   "tournaments": [
-    {
-      "id": "MOJA_210314",
-      "name": "TMC ORANGE ALLINGES",
-      "date_start": "2026-10-20",
-      "date_end": "2026-10-20",
-      "location": {
-        "club": "ALLINGES TC",
-        "city": "ALLINGES"
-      },
-      "distance": "31,8 km",
-      "first_seen": "2026-08-06T16:43:58+02:00"
-    },
-    {
-      "id": "MOJA_304208",
-      "name": "TMC U12 NC-30/1",
-      "date_start": "2026-10-20",
-      "date_end": "2026-10-20",
-      "location": {
-        "club": "MESSERY TC",
-        "city": "MESSERY"
-      },
-      "distance": "17,5 km",
-      "first_seen": "2026-09-27T20:16:55+02:00"
-    },
-    {
-      "id": "MOJA_311160",
-      "name": "TMC U12 vert garçons",
-      "date_start": "2026-10-20",
-      "date_end": "2026-10-20",
-      "location": {
-        "club": "SCIEZ SUR LEMAN TC",
-        "city": "SCIEZ"
-      },
-      "distance": "23,4 km",
-      "first_seen": "2026-10-06T02:06:13+02:00"
-    },
     {
       "id": "MOJA_208594",
       "name": "TOURNOI VERT ANNECY",

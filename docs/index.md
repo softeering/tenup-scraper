@@ -2,17 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (41)
+# Tournois de tennis à venir (38)
 
-_Dernière mise à jour : 2026-10-20T22:02:12+02:00_  
+_Dernière mise à jour : 2026-10-21T02:05:49+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210314" target="_blank" rel="noopener noreferrer">TMC ORANGE ALLINGES</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
-    <tr><td>2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304208" target="_blank" rel="noopener noreferrer">TMC U12 NC-30/1</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
-    <tr><td>2026-10-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_311160" target="_blank" rel="noopener noreferrer">TMC U12 vert garçons</a></td><td>SCIEZ SUR LEMAN TC</td><td>SCIEZ</td><td>23,4 km</td></tr>
     <tr><td>2026-10-21 → 2026-10-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208594" target="_blank" rel="noopener noreferrer">TOURNOI VERT ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
     <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210313" target="_blank" rel="noopener noreferrer">TMC VERT NIVEAU REGIONAL NC-30/2</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
     <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_302821" target="_blank" rel="noopener noreferrer">TMC Orange Montréal la Cluse</a></td><td>MONTREAL LA CLUSE (AS)</td><td>MONTREAL LA CLUSE</td><td>40,5 km</td></tr>
