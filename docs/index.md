@@ -2,19 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (38)
+# Tournois de tennis à venir (33)
 
-_Dernière mise à jour : 2026-10-21T22:02:37+02:00_  
+_Dernière mise à jour : 2026-10-22T02:05:28+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-21 → 2026-10-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208594" target="_blank" rel="noopener noreferrer">TOURNOI VERT ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
-    <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210313" target="_blank" rel="noopener noreferrer">TMC VERT NIVEAU REGIONAL NC-30/2</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
-    <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_302821" target="_blank" rel="noopener noreferrer">TMC Orange Montréal la Cluse</a></td><td>MONTREAL LA CLUSE (AS)</td><td>MONTREAL LA CLUSE</td><td>40,5 km</td></tr>
-    <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304211" target="_blank" rel="noopener noreferrer">TMC U10 orange</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
-    <tr><td>2026-10-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_308758" target="_blank" rel="noopener noreferrer">TMC SIMPLE MIXTE D'AUTOMNE TCF</a></td><td>TC DU FAUCIGNY</td><td>BONNEVILLE</td><td>31,6 km</td></tr>
     <tr><td>2026-10-22 → 2026-10-23</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210565" target="_blank" rel="noopener noreferrer">TMC vert 9/14 ans</a></td><td>T.C. THORENS</td><td>THORENS GLIERES</td><td>32,7 km</td></tr>
     <tr><td>2026-10-24 → 2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209257" target="_blank" rel="noopener noreferrer">Tournoi Jeunes Toussaint CSTC</a></td><td>CLUSES-SCIONZIER TC</td><td>CLUSES</td><td>43,2 km</td></tr>
     <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210613" target="_blank" rel="noopener noreferrer">TMC 11-12ans balle dur</a></td><td>ST PIERRE EN FAUCIGNY TC</td><td>ST PIERRE EN FAUCIGNY</td><td>31,6 km</td></tr>
