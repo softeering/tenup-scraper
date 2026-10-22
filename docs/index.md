@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (33)
+# Tournois de tennis à venir (34)
 
-_Dernière mise à jour : 2026-10-22T06:03:07+02:00_  
+_Dernière mise à jour : 2026-10-22T10:03:32+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -35,6 +35,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-11-29</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303143" target="_blank" rel="noopener noreferrer">Galaxie vert</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr><td>2026-12-05</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211128" target="_blank" rel="noopener noreferrer">TMC Garçons 11-14 (30/3 &gt; 15/4)</a></td><td>EVIAN TC</td><td>EVIAN LES BAINS</td><td>41,8 km</td></tr>
     <tr><td>2026-12-06</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304676" target="_blank" rel="noopener noreferrer">TMC 11-12 ans</a></td><td>SEYSSEL CORBONOD (TENNIS CLUB)</td><td>CORBONOD</td><td>38,9 km</td></tr>
+    <tr class="is-new"><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208507" target="_blank" rel="noopener noreferrer">TMC ORANGE 7-10 ANS ATP-M</a> <span class="new-badge">NEW</span></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
     <tr><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210322" target="_blank" rel="noopener noreferrer">TMC VERT 8 JOUEURS</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
     <tr><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306689" target="_blank" rel="noopener noreferrer">Tmc orange u 10</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
     <tr><td>2026-12-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208508" target="_blank" rel="noopener noreferrer">TMC VERT MIXTE 8-12 ANS ATP-M</a></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
