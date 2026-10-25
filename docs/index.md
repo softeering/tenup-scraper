@@ -2,19 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (33)
+# Tournois de tennis à venir (28)
 
-_Dernière mise à jour : 2026-10-24T22:02:16+02:00_  
+_Dernière mise à jour : 2026-10-25T02:06:08+02:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-24 → 2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209257" target="_blank" rel="noopener noreferrer">Tournoi Jeunes Toussaint CSTC</a></td><td>CLUSES-SCIONZIER TC</td><td>CLUSES</td><td>43,2 km</td></tr>
-    <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210613" target="_blank" rel="noopener noreferrer">TMC 11-12ans balle dur</a></td><td>ST PIERRE EN FAUCIGNY TC</td><td>ST PIERRE EN FAUCIGNY</td><td>31,6 km</td></tr>
-    <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306840" target="_blank" rel="noopener noreferrer">TMC DOUVAINE U10 Orange</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
-    <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306841" target="_blank" rel="noopener noreferrer">TMC DOUVAINE  U10 Vert</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
-    <tr><td>2026-10-24</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_307108" target="_blank" rel="noopener noreferrer">TMC Vert 9/10 ans</a></td><td>HAUT JURA T.C.</td><td>Les Rousses</td><td>24,5 km</td></tr>
     <tr><td>2026-10-25</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303135" target="_blank" rel="noopener noreferrer">Plateau  orange</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr><td>2026-10-26 → 2026-10-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208537" target="_blank" rel="noopener noreferrer">TOURNOI JEUNES ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
     <tr><td>2026-10-26 → 2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208975" target="_blank" rel="noopener noreferrer">Tournoi jeune de la Toussaint</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>

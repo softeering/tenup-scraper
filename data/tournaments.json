@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-10-24T22:02:16+02:00",
-    "tournament_count": 33,
+    "last_scrape": "2026-10-25T02:06:08+02:00",
+    "tournament_count": 28,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -9,66 +9,6 @@
     }
   },
   "tournaments": [
-    {
-      "id": "MOJA_209257",
-      "name": "Tournoi Jeunes Toussaint CSTC",
-      "date_start": "2026-10-24",
-      "date_end": "2026-11-01",
-      "location": {
-        "club": "CLUSES-SCIONZIER TC",
-        "city": "CLUSES"
-      },
-      "distance": "43,2 km",
-      "first_seen": "2026-09-27T20:16:55+02:00"
-    },
-    {
-      "id": "MOJA_210613",
-      "name": "TMC 11-12ans balle dur",
-      "date_start": "2026-10-24",
-      "date_end": "2026-10-24",
-      "location": {
-        "club": "ST PIERRE EN FAUCIGNY TC",
-        "city": "ST PIERRE EN FAUCIGNY"
-      },
-      "distance": "31,6 km",
-      "first_seen": "2026-09-27T20:16:55+02:00"
-    },
-    {
-      "id": "MOJA_306840",
-      "name": "TMC DOUVAINE U10 Orange",
-      "date_start": "2026-10-24",
-      "date_end": "2026-10-24",
-      "location": {
-        "club": "DOUVAINE TC",
-        "city": "DOUVAINE"
-      },
-      "distance": "17,6 km",
-      "first_seen": "2026-10-08T02:06:05+02:00"
-    },
-    {
-      "id": "MOJA_306841",
-      "name": "TMC DOUVAINE  U10 Vert",
-      "date_start": "2026-10-24",
-      "date_end": "2026-10-24",
-      "location": {
-        "club": "DOUVAINE TC",
-        "city": "DOUVAINE"
-      },
-      "distance": "17,6 km",
-      "first_seen": "2026-10-06T02:06:13+02:00"
-    },
-    {
-      "id": "MOJA_307108",
-      "name": "TMC Vert 9/10 ans",
-      "date_start": "2026-10-24",
-      "date_end": "2026-10-24",
-      "location": {
-        "club": "HAUT JURA T.C.",
-        "city": "Les Rousses"
-      },
-      "distance": "24,5 km",
-      "first_seen": "2026-09-22T22:02:10+02:00"
-    },
     {
       "id": "MOJA_303135",
       "name": "Plateau  orange",
