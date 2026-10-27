@@ -2,16 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (27)
+# Tournois de tennis à venir (25)
 
-_Dernière mise à jour : 2026-10-26T21:02:41+01:00_  
+_Dernière mise à jour : 2026-10-27T01:05:31+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-26 → 2026-10-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208537" target="_blank" rel="noopener noreferrer">TOURNOI JEUNES ANNECY</a></td><td>ANNECY TENNIS</td><td>ANNECY</td><td>38,4 km</td></tr>
-    <tr><td>2026-10-26 → 2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208975" target="_blank" rel="noopener noreferrer">Tournoi jeune de la Toussaint</a></td><td>RUMILLY TC</td><td>RUMILLY</td><td>46,3 km</td></tr>
     <tr><td>2026-10-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209300" target="_blank" rel="noopener noreferrer">TMC U10 Orange toussaint Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-10-27 → 2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_302849" target="_blank" rel="noopener noreferrer">Tournoi Jeunes du TC Salève</a></td><td>ANNEMASSE TC DU SALEVE</td><td>VILLE LA GRAND</td><td>14,7 km</td></tr>
     <tr><td>2026-10-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304233" target="_blank" rel="noopener noreferrer">TMC U10 ORANGE</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
