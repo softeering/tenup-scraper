@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (22)
+# Tournois de tennis à venir (21)
 
-_Dernière mise à jour : 2026-10-28T21:02:03+01:00_  
+_Dernière mise à jour : 2026-10-29T01:04:57+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-28</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_302824" target="_blank" rel="noopener noreferrer">TMC Vert 8/12ans Montréal la Cluse</a></td><td>MONTREAL LA CLUSE (AS)</td><td>MONTREAL LA CLUSE</td><td>40,5 km</td></tr>
     <tr><td>2026-10-29 → 2026-10-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209304" target="_blank" rel="noopener noreferrer">TMC U10 Vert Toussaint Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
     <tr><td>2026-10-29</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304238" target="_blank" rel="noopener noreferrer">TMC U12 VERT</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
     <tr><td>2026-10-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_308760" target="_blank" rel="noopener noreferrer">TMC GARCONS 11 ANS</a></td><td>TC DU FAUCIGNY</td><td>BONNEVILLE</td><td>31,6 km</td></tr>
