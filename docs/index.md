@@ -2,16 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (21)
+# Tournois de tennis à venir (19)
 
-_Dernière mise à jour : 2026-10-29T21:01:56+01:00_  
+_Dernière mise à jour : 2026-10-30T01:04:44+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-29 → 2026-10-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209304" target="_blank" rel="noopener noreferrer">TMC U10 Vert Toussaint Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>45,4 km</td></tr>
-    <tr><td>2026-10-29</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304238" target="_blank" rel="noopener noreferrer">TMC U12 VERT</a></td><td>MESSERY TC</td><td>MESSERY</td><td>17,5 km</td></tr>
     <tr><td>2026-10-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_308760" target="_blank" rel="noopener noreferrer">TMC GARCONS 11 ANS</a></td><td>TC DU FAUCIGNY</td><td>BONNEVILLE</td><td>31,6 km</td></tr>
     <tr><td>2026-10-31</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_301435" target="_blank" rel="noopener noreferrer">Circuit Galaxie Tennis U10 Orange Ferney Voltaire</a></td><td>FERNEY VOLTAIRE (TC DE)</td><td>FERNEY VOLTAIRE</td><td>2,3 km</td></tr>
     <tr><td>2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210850" target="_blank" rel="noopener noreferrer">TMC GALAXIE VERT ARA MT 7/10ans</a></td><td>VALLEIRY TENNIS CLUB</td><td>VALLEIRY</td><td>19,6 km</td></tr>
