@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (20)
+# Tournois de tennis à venir (19)
 
-_Dernière mise à jour : 2026-10-31T21:01:47+01:00_  
+_Dernière mise à jour : 2026-11-01T01:04:30+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-10-31</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_301435" target="_blank" rel="noopener noreferrer">Circuit Galaxie Tennis U10 Orange Ferney Voltaire</a></td><td>FERNEY VOLTAIRE (TC DE)</td><td>FERNEY VOLTAIRE</td><td>2,3 km</td></tr>
     <tr><td>2026-11-01</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210850" target="_blank" rel="noopener noreferrer">TMC GALAXIE VERT ARA MT 7/10ans</a></td><td>VALLEIRY TENNIS CLUB</td><td>VALLEIRY</td><td>19,6 km</td></tr>
     <tr><td>2026-11-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_288979" target="_blank" rel="noopener noreferrer">TMC U10 orange</a></td><td>LA ROCHE SUR FORON TC</td><td>LA ROCHE SUR FORON</td><td>28,2 km</td></tr>
     <tr><td>2026-11-08</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_288982" target="_blank" rel="noopener noreferrer">TMC U10 vert</a></td><td>LA ROCHE SUR FORON TC</td><td>LA ROCHE SUR FORON</td><td>28,2 km</td></tr>
