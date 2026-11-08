@@ -4,13 +4,12 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (18)
 
-_Dernière mise à jour : 2026-11-07T21:01:29+01:00_  
+_Dernière mise à jour : 2026-11-08T01:04:25+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-11-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_288979" target="_blank" rel="noopener noreferrer">TMC U10 orange</a></td><td>LA ROCHE SUR FORON TC</td><td>LA ROCHE SUR FORON</td><td>28,2 km</td></tr>
     <tr><td>2026-11-08</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_288982" target="_blank" rel="noopener noreferrer">TMC U10 vert</a></td><td>LA ROCHE SUR FORON TC</td><td>LA ROCHE SUR FORON</td><td>28,2 km</td></tr>
     <tr><td>2026-11-15</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303137" target="_blank" rel="noopener noreferrer">Galaxie  orange</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr><td>2026-11-28</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211127" target="_blank" rel="noopener noreferrer">TMC Filles 11-14 (NC &gt; 30/1)</a></td><td>EVIAN TC</td><td>EVIAN LES BAINS</td><td>41,8 km</td></tr>
@@ -28,5 +27,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-01-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306781" target="_blank" rel="noopener noreferrer">tournoi orange</a></td><td>VALSERHONE TENNIS PADEL</td><td>BELLEGARDE SUR VALSERINE</td><td>27,3 km</td></tr>
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211227" target="_blank" rel="noopener noreferrer">TMC vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211228" target="_blank" rel="noopener noreferrer">TMC G Vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
+    <tr class="is-new"><td>2027-02-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304677" target="_blank" rel="noopener noreferrer">TMC BALLE VERTE</a> <span class="new-badge">NEW</span></td><td>SEYSSEL CORBONOD (TENNIS CLUB)</td><td>CORBONOD</td><td>38,9 km</td></tr>
   </tbody>
 </table>
