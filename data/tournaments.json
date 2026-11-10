@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-11-10T09:02:04+01:00",
-    "tournament_count": 17,
+    "last_scrape": "2026-11-10T13:02:08+01:00",
+    "tournament_count": 18,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -68,6 +68,18 @@
       },
       "distance": "38,9 km",
       "first_seen": "2026-09-27T20:16:55+02:00"
+    },
+    {
+      "id": "MOJA_325517",
+      "name": "TMC Vert 11/12 ans Cranves-Sales",
+      "date_start": "2026-12-13",
+      "date_end": "2026-12-13",
+      "location": {
+        "club": "CRANVES SALES TC",
+        "city": "CRANVES SALES"
+      },
+      "distance": "17,8 km",
+      "first_seen": "2026-11-10T13:02:08+01:00"
     },
     {
       "id": "MOJA_208507",
