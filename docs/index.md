@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (17)
 
-_Dernière mise à jour : 2026-11-10T01:04:00+01:00_  
+_Dernière mise à jour : 2026-11-10T05:01:57+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -26,6 +26,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-01-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306781" target="_blank" rel="noopener noreferrer">tournoi orange</a></td><td>VALSERHONE TENNIS PADEL</td><td>BELLEGARDE SUR VALSERINE</td><td>27,3 km</td></tr>
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211227" target="_blank" rel="noopener noreferrer">TMC vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211228" target="_blank" rel="noopener noreferrer">TMC G Vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
-    <tr class="is-new"><td>2027-02-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304677" target="_blank" rel="noopener noreferrer">TMC BALLE VERTE</a> <span class="new-badge">NEW</span></td><td>SEYSSEL CORBONOD (TENNIS CLUB)</td><td>CORBONOD</td><td>38,9 km</td></tr>
+    <tr><td>2027-02-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304677" target="_blank" rel="noopener noreferrer">TMC BALLE VERTE</a></td><td>SEYSSEL CORBONOD (TENNIS CLUB)</td><td>CORBONOD</td><td>38,9 km</td></tr>
   </tbody>
 </table>
