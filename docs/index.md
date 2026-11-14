@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (18)
+# Tournois de tennis à venir (21)
 
-_Dernière mise à jour : 2026-11-13T21:01:45+01:00_  
+_Dernière mise à jour : 2026-11-14T01:03:59+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -28,5 +28,8 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211227" target="_blank" rel="noopener noreferrer">TMC vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211228" target="_blank" rel="noopener noreferrer">TMC G Vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
     <tr><td>2027-02-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304677" target="_blank" rel="noopener noreferrer">TMC BALLE VERTE</a></td><td>SEYSSEL CORBONOD (TENNIS CLUB)</td><td>CORBONOD</td><td>38,9 km</td></tr>
+    <tr class="is-new"><td>2027-02-13 → 2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210132" target="_blank" rel="noopener noreferrer">tournoi jeune Sevrier hiver</a> <span class="new-badge">NEW</span></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
+    <tr class="is-new"><td>2027-02-13 → 2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210135" target="_blank" rel="noopener noreferrer">tournoi vert 9/12 ans Sevrier</a> <span class="new-badge">NEW</span></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
+    <tr class="is-new"><td>2027-02-13 → 2027-02-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210319" target="_blank" rel="noopener noreferrer">TOURNOI JEUNES ALLINGES HIVER</a> <span class="new-badge">NEW</span></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
   </tbody>
 </table>
