@@ -2,15 +2,14 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (21)
+# Tournois de tennis à venir (24)
 
-_Dernière mise à jour : 2026-11-15T21:01:55+01:00_  
+_Dernière mise à jour : 2026-11-16T01:04:00+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
   <thead><tr><th>Date</th><th>Tournoi</th><th>Club</th><th>Ville</th><th>Distance</th></tr></thead>
   <tbody>
-    <tr><td>2026-11-15</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303137" target="_blank" rel="noopener noreferrer">Galaxie  orange</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr><td>2026-11-28</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211127" target="_blank" rel="noopener noreferrer">TMC Filles 11-14 (NC &gt; 30/1)</a></td><td>EVIAN TC</td><td>EVIAN LES BAINS</td><td>41,8 km</td></tr>
     <tr><td>2026-11-29</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303143" target="_blank" rel="noopener noreferrer">Galaxie vert</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr><td>2026-12-05</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211128" target="_blank" rel="noopener noreferrer">TMC Garçons 11-14 (30/3 &gt; 15/4)</a></td><td>EVIAN TC</td><td>EVIAN LES BAINS</td><td>41,8 km</td></tr>
@@ -28,8 +27,12 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211227" target="_blank" rel="noopener noreferrer">TMC vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
     <tr><td>2027-01-30</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211228" target="_blank" rel="noopener noreferrer">TMC G Vert Gex</a></td><td>GEX (TENNIS CLUB DE)</td><td>GEX</td><td>8,1 km</td></tr>
     <tr><td>2027-02-07</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_304677" target="_blank" rel="noopener noreferrer">TMC BALLE VERTE</a></td><td>SEYSSEL CORBONOD (TENNIS CLUB)</td><td>CORBONOD</td><td>38,9 km</td></tr>
-    <tr class="is-new"><td>2027-02-13 → 2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210132" target="_blank" rel="noopener noreferrer">tournoi jeune Sevrier hiver</a> <span class="new-badge">NEW</span></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
-    <tr class="is-new"><td>2027-02-13 → 2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210135" target="_blank" rel="noopener noreferrer">tournoi vert 9/12 ans Sevrier</a> <span class="new-badge">NEW</span></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
-    <tr class="is-new"><td>2027-02-13 → 2027-02-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210319" target="_blank" rel="noopener noreferrer">TOURNOI JEUNES ALLINGES HIVER</a> <span class="new-badge">NEW</span></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
+    <tr><td>2027-02-13 → 2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210132" target="_blank" rel="noopener noreferrer">tournoi jeune Sevrier hiver</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
+    <tr><td>2027-02-13 → 2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210135" target="_blank" rel="noopener noreferrer">tournoi vert 9/12 ans Sevrier</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
+    <tr><td>2027-02-13 → 2027-02-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210319" target="_blank" rel="noopener noreferrer">TOURNOI JEUNES ALLINGES HIVER</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
+    <tr class="is-new"><td>2027-02-15 → 2027-02-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210570" target="_blank" rel="noopener noreferrer">TMC 11/14 ans NC-30/1</a> <span class="new-badge">NEW</span></td><td>SAINT JORIOZ TC</td><td>ST JORIOZ</td><td>48,0 km</td></tr>
+    <tr class="is-new"><td>2027-02-15</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210801" target="_blank" rel="noopener noreferrer">TMC Orange U10 Vallières</a> <span class="new-badge">NEW</span></td><td>VALLIERES TENNIS CLUB</td><td>VALLIERES-SUR-FIER</td><td>42,8 km</td></tr>
+    <tr class="is-new"><td>2027-02-15</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210802" target="_blank" rel="noopener noreferrer">TMC Vert U12 Vallières</a> <span class="new-badge">NEW</span></td><td>VALLIERES TENNIS CLUB</td><td>VALLIERES-SUR-FIER</td><td>42,8 km</td></tr>
+    <tr class="is-new"><td>2027-02-15 → 2027-02-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303982" target="_blank" rel="noopener noreferrer">Défi Orange TCAV</a> <span class="new-badge">NEW</span></td><td>ANNECY LE VIEUX TC</td><td>ANNECY LE VIEUX</td><td>40,1 km</td></tr>
   </tbody>
 </table>
