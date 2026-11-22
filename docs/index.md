@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (28)
+# Tournois de tennis à venir (29)
 
-_Dernière mise à jour : 2026-11-21T21:01:36+01:00_  
+_Dernière mise à jour : 2026-11-22T01:04:01+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -38,5 +38,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-02-18 → 2027-02-19</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303985" target="_blank" rel="noopener noreferrer">Défi Vert TCAV</a></td><td>ANNECY LE VIEUX TC</td><td>ANNECY LE VIEUX</td><td>40,1 km</td></tr>
     <tr class="is-new"><td>2027-02-20 → 2027-03-06</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208503" target="_blank" rel="noopener noreferrer">OPEN DES PETITS PRINCES ATP-M 2027</a> <span class="new-badge">NEW</span></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
     <tr class="is-new"><td>2027-02-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_315616" target="_blank" rel="noopener noreferrer">Tmc 11 12  ans Nc à 30/4</a> <span class="new-badge">NEW</span></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
+    <tr class="is-new"><td>2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_315626" target="_blank" rel="noopener noreferrer">Tmc 11/12 ans 30/3  a 30/1</a> <span class="new-badge">NEW</span></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
   </tbody>
 </table>
