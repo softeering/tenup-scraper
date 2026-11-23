@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (29)
+# Tournois de tennis à venir (30)
 
-_Dernière mise à jour : 2026-11-22T21:01:39+01:00_  
+_Dernière mise à jour : 2026-11-23T01:04:12+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -36,8 +36,9 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-02-15 → 2027-02-16</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303982" target="_blank" rel="noopener noreferrer">Défi Orange TCAV</a></td><td>ANNECY LE VIEUX TC</td><td>ANNECY LE VIEUX</td><td>40,1 km</td></tr>
     <tr><td>2027-02-18 → 2027-02-19</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210573" target="_blank" rel="noopener noreferrer">TMC vert 9/14 ans</a></td><td>SAINT JORIOZ TC</td><td>ST JORIOZ</td><td>48,0 km</td></tr>
     <tr><td>2027-02-18 → 2027-02-19</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_303985" target="_blank" rel="noopener noreferrer">Défi Vert TCAV</a></td><td>ANNECY LE VIEUX TC</td><td>ANNECY LE VIEUX</td><td>40,1 km</td></tr>
-    <tr class="is-new"><td>2027-02-20 → 2027-03-06</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208503" target="_blank" rel="noopener noreferrer">OPEN DES PETITS PRINCES ATP-M 2027</a> <span class="new-badge">NEW</span></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
-    <tr class="is-new"><td>2027-02-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_315616" target="_blank" rel="noopener noreferrer">Tmc 11 12  ans Nc à 30/4</a> <span class="new-badge">NEW</span></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
+    <tr><td>2027-02-20 → 2027-03-06</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208503" target="_blank" rel="noopener noreferrer">OPEN DES PETITS PRINCES ATP-M 2027</a></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
+    <tr><td>2027-02-20</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_315616" target="_blank" rel="noopener noreferrer">Tmc 11 12  ans Nc à 30/4</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr class="is-new"><td>2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_315626" target="_blank" rel="noopener noreferrer">Tmc 11/12 ans 30/3  a 30/1</a> <span class="new-badge">NEW</span></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
+    <tr class="is-new"><td>2027-02-22 → 2027-02-23</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210575" target="_blank" rel="noopener noreferrer">TMC 11/14 ans NC-30/2</a> <span class="new-badge">NEW</span></td><td>SAINT JORIOZ TC</td><td>ST JORIOZ</td><td>48,0 km</td></tr>
   </tbody>
 </table>
