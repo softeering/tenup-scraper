@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_scrape": "2026-11-24T21:01:43+01:00",
-    "tournament_count": 32,
+    "last_scrape": "2026-11-25T01:03:59+01:00",
+    "tournament_count": 33,
     "scrape_params": {
       "city": "Prévessin-Moëns, 01280",
       "distance_km": 50,
@@ -392,6 +392,18 @@
       },
       "distance": "46,8 km",
       "first_seen": "2026-11-24T01:03:51+01:00"
+    },
+    {
+      "id": "MOJA_210578",
+      "name": "TMC 11/14 ans 30/3-15/14",
+      "date_start": "2027-02-24",
+      "date_end": "2027-02-25",
+      "location": {
+        "club": "SAINT JORIOZ TC",
+        "city": "ST JORIOZ"
+      },
+      "distance": "48,0 km",
+      "first_seen": "2026-11-25T01:03:59+01:00"
     }
   ]
 }
