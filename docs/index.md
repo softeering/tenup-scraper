@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (34)
+# Tournois de tennis à venir (35)
 
-_Dernière mise à jour : 2026-11-25T21:01:30+01:00_  
+_Dernière mise à jour : 2026-11-26T01:04:00+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -42,7 +42,8 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-02-20 → 2027-02-26</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_331950" target="_blank" rel="noopener noreferrer">ARA 74 - Championnat individuel jeunes 2027</a></td><td>COMITE HAUTE SAVOIE TENNIS</td><td>LA ROCHE SUR FORON</td><td>26,6 km</td></tr>
     <tr><td>2027-02-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_315626" target="_blank" rel="noopener noreferrer">Tmc 11/12 ans 30/3  a 30/1</a></td><td>DIVONNE LES BAINS (TC)</td><td>DIVONNE LES BAINS</td><td>10,1 km</td></tr>
     <tr><td>2027-02-22 → 2027-02-23</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210575" target="_blank" rel="noopener noreferrer">TMC 11/14 ans NC-30/2</a></td><td>SAINT JORIOZ TC</td><td>ST JORIOZ</td><td>48,0 km</td></tr>
-    <tr class="is-new"><td>2027-02-23</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209508" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier Vacances hiver</a> <span class="new-badge">NEW</span></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
+    <tr><td>2027-02-23</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209508" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier Vacances hiver</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
     <tr class="is-new"><td>2027-02-24 → 2027-02-25</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210578" target="_blank" rel="noopener noreferrer">TMC 11/14 ans 30/3-15/14</a> <span class="new-badge">NEW</span></td><td>SAINT JORIOZ TC</td><td>ST JORIOZ</td><td>48,0 km</td></tr>
+    <tr class="is-new"><td>2027-02-25 → 2027-02-26</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209509" target="_blank" rel="noopener noreferrer">TMC vert U10 Sevrier vacances d'hiver</a> <span class="new-badge">NEW</span></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
   </tbody>
 </table>
