@@ -4,7 +4,7 @@ title: Tournois TenUp
 
 # Tournois de tennis à venir (35)
 
-_Dernière mise à jour : 2026-11-27T05:01:39+01:00_  
+_Dernière mise à jour : 2026-11-27T09:02:13+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -18,7 +18,7 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208507" target="_blank" rel="noopener noreferrer">TMC ORANGE 7-10 ANS ATP-M</a></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
     <tr><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210322" target="_blank" rel="noopener noreferrer">TMC VERT 8 JOUEURS</a></td><td>ALLINGES TC</td><td>ALLINGES</td><td>31,8 km</td></tr>
     <tr><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306689" target="_blank" rel="noopener noreferrer">Tmc orange u 10</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
-    <tr class="is-new"><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_330659" target="_blank" rel="noopener noreferrer">TMC mixte orange 9/10 ans</a> <span class="new-badge">NEW</span></td><td>CRANVES SALES TC</td><td>CRANVES SALES</td><td>17,8 km</td></tr>
+    <tr><td>2026-12-21</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_330659" target="_blank" rel="noopener noreferrer">TMC mixte orange 9/10 ans</a></td><td>CRANVES SALES TC</td><td>CRANVES SALES</td><td>17,8 km</td></tr>
     <tr><td>2026-12-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_208508" target="_blank" rel="noopener noreferrer">TMC VERT MIXTE 8-12 ANS ATP-M</a></td><td>PREVESSIN-MOENS (ASSOCIATION TENNIS DE)</td><td>PREVESSIN MOENS</td><td>0,6 km</td></tr>
     <tr><td>2026-12-22 → 2027-01-02</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_211231" target="_blank" rel="noopener noreferrer">Tournoi jeunes indoor</a></td><td>PRINGY TC</td><td>ANNECY</td><td>35,8 km</td></tr>
     <tr><td>2026-12-22</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_306696" target="_blank" rel="noopener noreferrer">Tmc Douvaine vert U10</a></td><td>DOUVAINE TC</td><td>DOUVAINE</td><td>17,6 km</td></tr>
