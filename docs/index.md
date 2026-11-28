@@ -2,9 +2,9 @@
 title: Tournois TenUp
 ---
 
-# Tournois de tennis à venir (35)
+# Tournois de tennis à venir (36)
 
-_Dernière mise à jour : 2026-11-27T21:01:30+01:00_  
+_Dernière mise à jour : 2026-11-28T01:03:35+01:00_  
 _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
 
 <table class="tournaments">
@@ -45,5 +45,6 @@ _Recherche : ville **Prévessin-Moëns, 01280**, rayon **50 km**._
     <tr><td>2027-02-23</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209508" target="_blank" rel="noopener noreferrer">TMC U10 Orange Sevrier Vacances hiver</a></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
     <tr><td>2027-02-24 → 2027-02-25</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_210578" target="_blank" rel="noopener noreferrer">TMC 11/14 ans 30/3-15/14</a></td><td>SAINT JORIOZ TC</td><td>ST JORIOZ</td><td>48,0 km</td></tr>
     <tr class="is-new"><td>2027-02-25 → 2027-02-26</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_209509" target="_blank" rel="noopener noreferrer">TMC vert U10 Sevrier vacances d'hiver</a> <span class="new-badge">NEW</span></td><td>SEVRIER TC</td><td>SEVRIER</td><td>46,8 km</td></tr>
+    <tr class="is-new"><td>2027-02-27</td><td><a href="https://tenup.fft.fr/tournoi/MOJA_301443" target="_blank" rel="noopener noreferrer">Circuit Galaxie Tennis U10 Vert Ferney Voltaire</a> <span class="new-badge">NEW</span></td><td>FERNEY VOLTAIRE (TC DE)</td><td>FERNEY VOLTAIRE</td><td>2,3 km</td></tr>
   </tbody>
 </table>
